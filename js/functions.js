@@ -93,6 +93,10 @@ const cursor = document.querySelector('.cursor');
 const links = document.querySelectorAll('a');
 const imgs = document.querySelectorAll('.image-preview');
 
+document.addEventListener('touchend', (e) => {
+  cursor.style.display = 'none';
+});
+
 document.addEventListener('mousemove', (e) => {
   let x = e.clientX;
   let y = e.clientY;
