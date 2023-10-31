@@ -128,10 +128,13 @@ main {
   left: 0;
   right: 0;
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
   padding: 0 10px;
+  min-height: 100px;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-end;
 }
 
 .scramble {
