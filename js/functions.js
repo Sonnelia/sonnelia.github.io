@@ -45,7 +45,7 @@ document.querySelector('.menu-main a') && document.querySelector('.menu-main a')
 let illustration = document.getElementById('illustration');
 let design = document.getElementById('design');
 
-if (window.location.pathname.endsWith('/index.html')) {
+if (window.location.pathname.endsWith('/index.html') || window.location.pathname === '/') {
   var images = document.querySelectorAll('#illustration .image-preview');
 
   document.querySelector('#menu-illustration') && document.querySelector('#menu-illustration').addEventListener('click', () => {
