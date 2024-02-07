@@ -1,13 +1,18 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="css/styles.css">
     <title>sonnie's portfolio</title>
     <meta name="artist" content="portfolio">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  <body>
+  <body></body>
+
+    <div class="cursor"></div>
+
+    <div class="noise"></div>
 
     <div class="borders">
       <div class="border-left"></div>
@@ -17,6 +22,10 @@
     </div>
 
     <header>
+      <nav class="nav-commissions">
+        <a href="commissions.html">commissions</a>
+      </nav>
+
       <nav class="nav-main">
         <a id="home">home</a>
         <a id="work">work</a>
@@ -28,7 +37,6 @@
       <div class="home">
         <p id="intro"></p>
       </div>
-
 
       <div class="work">
         <div id="work-divider" class="divider"></div>
@@ -76,12 +84,30 @@
 
       </div>
       
-
-      <div class="about">
         <div id="about-divider" class="divider"></div>
-        <div class="self">
-          <img src="img/stara_dopiero_wstala.png" alt="self">
+        <div class="about">
+          <img src="img/lomghair.png" alt="self">
           <p class="bio">Hello, my name is Sonnelia. I am trying to find a place for myself in this collapsing world.</p>
+          <table class="links">
+            <tr>
+              <th>links:</th>
+              <th>mail:</th>
+              <th>discord:</th>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://twitter.com/sonnelias" target="_blank" rel="noopener noreferrer">twitter</a>
+                <a href="https://bsky.app/profile/sonnelia.bsky.social" target="_blank" rel="noopener noreferrer">bluesky</a>
+                <a href="https://artistree.io/sonnelia" target="_blank" rel="noopener noreferrer">artistree</a>
+              </td>
+              <td>
+                <a href="mailto:glitchedmoons@gmail.com">glitchedmoons@gmail.com</a>
+              </td>
+              <td>
+                <a href="https://discord.com/app" target="_blank" rel="noopener noreferrer">@sonnelia</a>
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
 
@@ -93,11 +119,11 @@
         <span class="viewer-previous"><a>&lt;</a></span>
         <span class="viewer-next"><a>&gt;</a></span>
       </nav>
-      <img class="image-zoom">
+      <div class="zoom">
+        <img class="image-zoom">
+      </div>
       <p id="caution" class="copyrights">repost or reproduction prohibited</p>
     </div>
-
-    <div class="cursor"></div>
     
     <script src="js/functions.js"></script>
   </body>
