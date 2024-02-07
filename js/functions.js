@@ -44,8 +44,8 @@ document.querySelector('.menu-main a') && document.querySelector('.menu-main a')
 
 let illustration = document.getElementById('illustration');
 let design = document.getElementById('design');
-menu.innerHTML = window.location.pathname;
-if (window.location.pathname.endsWith('/index.html') || window.location.href == 'https://sonnelia.github.io') {
+
+if (window.location.pathname.endsWith('/index.html') || window.location.pathname == '/') {
   var images = document.querySelectorAll('#illustration .image-preview');
 
   document.querySelector('#menu-illustration') && document.querySelector('#menu-illustration').addEventListener('click', () => {
