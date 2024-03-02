@@ -67,7 +67,7 @@ if ((window.location.pathname.endsWith('/index.html') || window.location.pathnam
   });
 }
 
-if (window.location.pathname.endsWith('/commissions/index.html') || window.location.pathname.endsWith('/commissions/')) {
+if (window.location.pathname.endsWith('/commissions/index.html') || window.location.pathname.endsWith('/commissions')) {
   var images = document.querySelectorAll('#commissions .image-preview');
 }
 
