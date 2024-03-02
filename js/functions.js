@@ -218,7 +218,7 @@ imgs.forEach(img => {
 
 
 window.addEventListener('scroll', () => {
-  var scrolled = window.pageY;
+  var scrolled = window.pageYOffset;
   document.documentElement.style.setProperty('--bg-position', -(scrolled*0.2)+'px');
 });
 
