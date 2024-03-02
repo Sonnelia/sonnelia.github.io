@@ -45,7 +45,7 @@ document.querySelector('.menu-main a') && document.querySelector('.menu-main a')
 let illustration = document.getElementById('illustration');
 let design = document.getElementById('design');
 
-if (window.location.pathname.endsWith('/index.html') || window.location.pathname == '/') {
+if ((window.location.pathname.endsWith('/index.html') || window.location.pathname == '/')) {
   var images = document.querySelectorAll('#illustration .image-preview');
 
   document.querySelector('#menu-illustration') && document.querySelector('#menu-illustration').addEventListener('click', () => {
@@ -67,7 +67,7 @@ if (window.location.pathname.endsWith('/index.html') || window.location.pathname
   });
 }
 
-if (window.location.pathname.endsWith('/commissions.html')) {
+if (window.location.pathname.endsWith('/commissions/index.html') || window.location.pathname.endsWith('/commissions/')) {
   var images = document.querySelectorAll('#commissions .image-preview');
 }
 
@@ -158,12 +158,17 @@ document.querySelector('.viewer-next a') && document.querySelector('.viewer-next
 const cursor = document.querySelector('.cursor');
 const links = document.querySelectorAll('a');
 const imgs = document.querySelectorAll('.image-preview');
+let isPC = !/Mobi/i.test(navigator.userAgent);
 
 document.addEventListener('touchend', (e) => {
   cursor.style.display = 'none';
 });
 
 document.addEventListener('mousemove', (e) => {
+  if (isPC) {
+    cursor.style.display = 'block';
+  }
+  
   let cursorX = e.clientX;
   let cursorY = e.clientY;
   cursor.style.left = cursorX + 'px';
@@ -174,11 +179,16 @@ document.addEventListener('mousemove', (e) => {
 function handleMouseMove(event) {
   sessionStorage.setItem('cursorX', event.pageX);
   sessionStorage.setItem('cursorY', event.pageY);
+  sessionStorage.setItem('cursorStyle', cursor.style.display);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
   let cursorX = sessionStorage.getItem('cursorX');
   let cursorY = sessionStorage.getItem('cursorY');
+  let cursorStyle = sessionStorage.getItem('cursorStyle');
+
+  cursor.style.display = cursorStyle;
+
 
   if (cursorX && cursorY) {
     cursor.style.left = cursorX + 'px';
@@ -208,7 +218,7 @@ imgs.forEach(img => {
 
 
 window.addEventListener('scroll', () => {
-  var scrolled = window.pageYOffset;
+  var scrolled = window.pageY;
   document.documentElement.style.setProperty('--bg-position', -(scrolled*0.2)+'px');
 });
 

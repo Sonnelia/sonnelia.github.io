@@ -502,10 +502,12 @@ dd, li {
 dd::before {
   content: "▪";
   padding-right: 10px;
+  width: 10px;
 }
 
 li#one::before, li#two::before, li#three::before, li#four::before, li#five::before, li#six::before {
   padding-right: 10px;
+  width: 10px;
 }
 
 li#one::before {
@@ -589,7 +591,7 @@ li#six::before {
 
 .process li {
   list-style: none;
-  width: 750px;
+  width: 720px;
 }
 
 .start a {
@@ -768,6 +770,7 @@ li#six::before {
 @media only screen and (max-width: 1250px) {
   .price-list td {
     position: static;
+    width: calc(100% - 10px);
   }
 
   .sketch .portrait::before, .sketch .half-body::before, .sketch .full-body::before {
@@ -834,6 +837,12 @@ li#six::before {
   }
 }
 
+@media only screen and (max-width: 810px) {
+  .process li {
+    width: calc(100vw - 90px);
+  }
+}
+
 @media only screen and (max-width: 650px) {
   * {
     cursor: auto;
@@ -855,21 +864,24 @@ li#six::before {
     max-width: calc(100% - 10px);
   }
 
-  .process li {
-    width: auto;
-  }
-
   .price-list tbody{
     width: 100%;
   }
 
   .price-list tr {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .flats .portrait::before, .painted .portrait::before, .flats .half-body::before, .painted .half-body::before, .flats .full-body::before, .painted .full-body::before {
     display: block;
     left: 10px;
+  }
+
+  .commission-preview {
+    width: calc(50% - 10px) !important;
   }
 }
 
