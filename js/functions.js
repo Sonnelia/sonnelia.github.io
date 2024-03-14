@@ -356,7 +356,8 @@ let choose = document.querySelector('.language th'),
     process = document.querySelectorAll('.process li'),
     prices = document.querySelectorAll('.price-list td:not(:has(img))'),
     extra = document.querySelector('.extra th'),
-    tosp = document.querySelectorAll('.terms-of-service p'),
+    tosp = document.querySelector('.terms-of-service p'),
+    tosspan = document.querySelector('.terms-of-service span'),
     tosd = document.querySelectorAll('.terms-of-service dt'),
     tos = document.querySelectorAll('.terms-of-service dd');
 
@@ -386,9 +387,9 @@ function changeLanguage() {
   extra.innerHTML = currentTranslations;
   
   currentTranslations = translations[currentLanguage].tos;
-  tosp.forEach((item, index) => {
-    item.innerHTML = currentTranslations[index];
-  });
+  tosp.innerHTML = currentTranslations[0];
+  tosspan.innerHTML = currentTranslations[1];
+
   tosd.forEach((item, index) => {
     item.innerHTML = currentTranslations[index + 2];
   });
@@ -436,11 +437,11 @@ let translations = [
       '$100',
       '$125',
       '$15 each',
-      '75% additional characters',
-      '25-50% animals/creatures',
-      '10-50% props',
-      '10-100% background',
-      '0-25% complicated design',
+      '+75% additional characters',
+      '+25-50% animals/creatures',
+      '+10-50% props',
+      '+10-100% background',
+      '+0-25% complicated design',
     ],
     extra: [
       'additional costs',
@@ -508,11 +509,11 @@ let translations = [
       '400zł',
       '500zł',
       '60zł każda',
-      '75% dodatkowe postaci',
-      '25-50% zwierzęta/stworzenia',
-      '10-50% dekoracje',
-      '10-100% tło',
-      '0-25% skomplikowany design',
+      '+75% dodatkowe postaci',
+      '+25-50% zwierzęta/stworzenia',
+      '+10-50% dekoracje',
+      '+10-100% tło',
+      '+0-25% skomplikowany design',
     ],
     extra: [
       'dodatkowe koszta',
@@ -539,7 +540,7 @@ let translations = [
       'Ja, artysta, zachowuję wszelkie prawa autorskie do zleconych rysunków i zastrzegam sobie prawo do wykorzystania ich w portfolio, mediach społecznościowych i tym podobnych.',
       'Nie zezwalam na wykorzystanie mojej twórczości do trenowania AI albo sprzedaży NFT.',
       'Klient jest zobowiązany do podania mnie jako twórcę zleconego rysunku, kiedy go używa.',
-      'Klient może wykorzystywać zamówioną grafikę wyłącznie do użytku osobistego, chyba że została zawarta odrębna umowa dotycząca wykorzystania komercyjnego.',
+      'Zamówienie jest wyłącznie do użytku osobistego, chyba że została zawarta odrębna umowa dotycząca wykorzystania komercyjnego.',
       'Klient nie ma prawa w żaden sposób edytować zleconego rysunku bez mojej zgody, proszę o kontakt aby to omówić.',
       'Wydruki, merch, assety i cokolwiek nastawione na zysk zostanie sklasyfikowane jako komercyjne i będzie odpowiednio wycenione, w zależności od skali. Przy składaniu zamówienia proszę podać cel zlecenia.',
     ],

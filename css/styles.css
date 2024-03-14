@@ -554,6 +554,18 @@ li#six::before {
   flex-direction: column;
 }
 
+.general-info p::before, .tos p::before {
+  content: "〔";
+  padding-right: 10px;
+  width: 10px;
+}
+
+.general-info p::after, .tos p::after {
+  content: "〕";
+  padding-left: 10px;
+  width: 10px;
+}
+
 .lan.active {
   color: var(--gray);
 }
@@ -657,6 +669,18 @@ li#six::before {
   letter-spacing: 3px;
 }
 
+.price-list th::before, .terms-of-service dt::before {
+  content: "〈";
+  padding-right: 10px;
+  width: 10px;
+}
+
+.price-list th::after, .terms-of-service dt::after {
+  content: "〉";
+  padding-left: 10px;
+  width: 10px;
+}
+
 .portrait, .half-body {
   padding: 2.5px 10px !important;
 }
@@ -718,9 +742,13 @@ li#six::before {
   padding-top: 20px;
 }
 
-.terms-of-service p {
+.terms-of-service p, .terms-of-service span {
   max-width: 600px;
   padding: 10px;
+}
+
+.terms-of-service dt {
+  right: 10px;
 }
 
 /* 404 */
@@ -732,37 +760,31 @@ li#six::before {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
 .treasure::before {
   background-image: url(../img/bg/star3.png);
+  background-color: #0E0F13;
 }
 
-.treasure p {
-  padding: 5px 10px;
+.treasure p, .treasure a {
+  padding: 2.5px;
 }
 
-.treasure a {
-  padding: 5px 0;
+.treasure img {
+  height: 75vh;
+  filter: brightness(90%);
 }
 
-.found {
-  text-align: center;
+.found, .pages, .places {
   padding: 10px;
 }
 
 .pages {
-  text-align: center;
-  padding: 10px;
   display: flex;
   flex-direction: column;
-}
-
-.places {
-  text-align: center;
-  padding: 10px;
 }
 
 /* mobile responsive */
