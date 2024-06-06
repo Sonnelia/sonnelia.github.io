@@ -1,0 +1,5 @@
+# LATEST WIDGET VERSIONS BY MONTH/YEAR
+template-chat=6/24
+strix-chat=6/24
+strix-alert=4/24
+kix-chat=4/24
