@@ -648,8 +648,8 @@ window.addEventListener("onEventReceived", obj => {
                             "tags": {
                                 "badge-info": "",
                                 "badges": "",
-                                "color": "#efeff1",
-                                "display-name": "RegularViewer",
+                                "color": "#daa520",
+                                "display-name": "NewChatter",
                                 "emotes": "",
                                 "first-msg": "0",
                                 "flags": "",
@@ -660,13 +660,13 @@ window.addEventListener("onEventReceived", obj => {
                                 "subscriber": "0",
                                 "tmi-sent-ts": "1711108669423",
                                 "turbo": "0",
-                                "user-id": "1",
+                                "user-id": "7",
                                 "user-type": ""
                             },
-                            "nick": "regularviewer",
-                            "userId": "1",
-                            "displayName": "RegularViewer",
-                            "displayColor": "#efeff1",
+                            "nick": "newchatter",
+                            "userId": "7",
+                            "displayName": "NewChatter",
+                            "displayColor": "#daa520",
                             "badges": [],
                             "channel": channelName,
                             "text": "*insert a bad word here*",
@@ -688,8 +688,8 @@ window.addEventListener("onEventReceived", obj => {
                             "tags": {
                                 "badge-info": "",
                                 "badges": "",
-                                "color": "#efeff1",
-                                "display-name": "RegularViewer",
+                                "color": "#daa520",
+                                "display-name": "NewChatter",
                                 "emotes": "",
                                 "first-msg": "0",
                                 "flags": "",
@@ -700,17 +700,17 @@ window.addEventListener("onEventReceived", obj => {
                                 "subscriber": "0",
                                 "tmi-sent-ts": "1711108669423",
                                 "turbo": "0",
-                                "user-id": "1",
+                                "user-id": "7",
                                 "user-type": ""
                             },
-                            "nick": "regularviewer",
-                            "userId": "1",
-                            "displayName": "RegularViewer",
-                            "displayColor": "#efeff1",
+                            "nick": "newchatter",
+                            "userId": "7",
+                            "displayName": "NewChatter",
+                            "displayColor": "#daa520",
                             "badges": [],
                             "channel": channelName,
                             "text": "haha, i'm invincible!",
-                            "isAction": false,
+                            "isAction": true,
                             "emotes": [],
                             "msgId": "514ad498-1139-4002-a52d-700cf099d015"
                         },
@@ -736,15 +736,15 @@ window.addEventListener("onEventReceived", obj => {
                             "flags": "",
                             "id": "6a7cf06f-4a54-4437-9742-5c4036b90c3f",
                             "mod": "0",
-                            "reply-parent-display-name": "RegularViewer",
+                            "reply-parent-display-name": "NewChatter",
                             "reply-parent-msg-body": "haha,\\si'm\\sinvincible!",
                             "reply-parent-msg-id": "cb696381-9751-4985-a898-5c28d69ab3a2",
-                            "reply-parent-user-id": "1",
-                            "reply-parent-user-login": "regularviewer",
-                            "reply-thread-parent-display-name": "RegularViewer",
+                            "reply-parent-user-id": "7",
+                            "reply-parent-user-login": "newchatter",
+                            "reply-thread-parent-display-name": "NewChatter",
                             "reply-thread-parent-msg-id": "cb696381-9751-4985-a898-5c28d69ab3a2",
-                            "reply-thread-parent-user-id": "1",
-                            "reply-thread-parent-user-login": "regularviewer",
+                            "reply-thread-parent-user-id": "7",
+                            "reply-thread-parent-user-login": "newchatter",
                             "returning-chatter": "0",
                             "room-id": "63065903",
                             "subscriber": "1",
@@ -772,7 +772,7 @@ window.addEventListener("onEventReceived", obj => {
                             }
                         ],
                         "channel": channelName,
-                        "text": "@RegularViewer are you sure?",
+                        "text": "@NewChatter are you sure?",
                         "isAction": false,
                         "emotes": [
                             {
@@ -815,8 +815,8 @@ window.addEventListener("onEventReceived", obj => {
                             "tags": {
                                 "badge-info": "",
                                 "badges": "",
-                                "color": "#efeff1",
-                                "display-name": "RegularViewer",
+                                "color": "#daa520",
+                                "display-name": "NewChatter",
                                 "emotes": "",
                                 "first-msg": "0",
                                 "flags": "",
@@ -827,13 +827,13 @@ window.addEventListener("onEventReceived", obj => {
                                 "subscriber": "0",
                                 "tmi-sent-ts": "1711108669423",
                                 "turbo": "0",
-                                "user-id": "1",
+                                "user-id": "7",
                                 "user-type": ""
                             },
-                            "nick": "regularviewer",
-                            "userId": "1",
-                            "displayName": "RegularViewer",
-                            "displayColor": "#efeff1",
+                            "nick": "newchatter",
+                            "userId": "7",
+                            "displayName": "NewChatter",
+                            "displayColor": "#daa520",
                             "badges": [],
                             "channel": channelName,
                             "text": "*more bad words*",
@@ -902,18 +902,17 @@ window.addEventListener("onEventReceived", obj => {
                 detail: {
                     "listener": "delete-messages",
                     "event": {
-                        "userId": "1",
+                        "userId": "7",
                     }
                 }
             });
 
-            let events = [emulated2, emulated3, emulated4, emulated5, emulated6, emulated7];
+            let events = [emulated, emulated2, emulated3, emulated4, emulated5, emulated6, emulated7];
 
-            window.dispatchEvent(emulated);
             for (let i = 0; i < events.length; i++) {
                 setTimeout(() => {
                     window.dispatchEvent(events[i]);
-                }, 600 * i);
+                }, 1000 * i);
             }
         }
 
