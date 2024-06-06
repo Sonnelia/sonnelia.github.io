@@ -777,7 +777,7 @@ window.addEventListener("onEventReceived", obj => {
             window.dispatchEvent(emulated);
         }
     
-        if (obj.detail.event.field === "updatealert") {
+        if (obj.detail.event.field === "updateAlert") {
             let emulated = new CustomEvent("onEventReceived", {
                 detail: {
                     'listener': "update-latest",
