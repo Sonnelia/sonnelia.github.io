@@ -734,7 +734,7 @@ window.addEventListener("onEventReceived", obj => {
             window.dispatchEvent(emulated);
         }
 
-        if (event.target.id === "tip-alert") {
+        if (obj.detail.event.field === "tipAlert") {
             let emulated = new CustomEvent("onEventReceived", {
                 detail: {
                     'listener': "tip-latest",
