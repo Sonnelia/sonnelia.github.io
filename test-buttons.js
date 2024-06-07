@@ -7,7 +7,7 @@ window.addEventListener("onWidgetLoad", obj => {
 window.addEventListener("onEventReceived", obj => {
     if (obj.detail.event.listener === "widget-button") {
 
-        //REGULAR, SUB / VIP / ARTIST, MOD / STREAMER, ACTION, HIGHLIGHTED, EMOTE ONLY, REPLY
+        //REGULAR, SUB / VIP / ARTIST, MOD / STREAMER, ACTION, HIGHLIGHTED, EMOTE ONLY, REPLY, NIGHTBOT
 
         if (obj.detail.event.field === "regularMessage") {
             let emulated = new CustomEvent("onEventReceived", {
@@ -201,7 +201,7 @@ window.addEventListener("onEventReceived", obj => {
                 }
             });
             window.dispatchEvent(emulated);
-        }  
+        }
         
         if (obj.detail.event.field === "moderatorMessage") {
             let emulated = new CustomEvent("onEventReceived", {
@@ -213,9 +213,9 @@ window.addEventListener("onEventReceived", obj => {
                             "time": Date.now(),
                             "tags": {
                                 "badge-info": "",
-                                "badges": "moderator/1,subscriber/0,partner/1",
-                                "color": "#7c7ce1",
-                                "display-name": "Nightbot",
+                                "badges": "moderator/1,subscriber/0",
+                                "color": "#2e8b57",
+                                "display-name": "Moderator",
                                 "emotes": "",
                                 "first-msg": "0",
                                 "flags": "",
@@ -229,10 +229,10 @@ window.addEventListener("onEventReceived", obj => {
                                 "user-id": "5",
                                 "user-type": "mod"
                             },
-                            "nick": "nightbot",
+                            "nick": "moderator",
                             "userId": "5",
-                            "displayName": "Nightbot",
-                            "displayColor": "#7c7ce1",
+                            "displayName": "Moderator",
+                            "displayColor": "#2e8b57",
                             "badges": [
                                 {
                                     "type": "moderator",
@@ -245,16 +245,10 @@ window.addEventListener("onEventReceived", obj => {
                                     "version": "0",
                                     "url": "https://static-cdn.jtvnw.net/badges/v1/5d9f2208-5dd8-11e7-8513-2ff4adfae661/3",
                                     "description": "Subscriber"
-                                },
-                                {
-                                    "type": "partner",
-                                    "version": "1",
-                                    "url": "https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/3",
-                                    "description": "Verified"
                                 }
                             ],
                             "channel": channelName,
-                            "text": " ──────▄▌▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌ ───▄▄██▌█ BEEP BEEP ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ▄▄▄▌▐██▌█ -44 LP DELIVERY ███████▌█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌ ▀(⊙)▀▀▀▀▀▀▀(⊙)(⊙)▀▀▀▀▀▀▀▀▀▀(⊙)▀▀",
+                            "text": "I HAVE THE POWER HERE! >:D",
                             "isAction": false,
                             "emotes": [],
                             "msgId": "314588ea-eb54-4047-bdd9-7d2f6e3bbd68"
@@ -275,7 +269,7 @@ window.addEventListener("onEventReceived", obj => {
                                 "time": Date.now(),
                                 "tags": {
                                     "badge-info": "subscriber/14",
-                                    "badges": "broadcaster/1,subscriber/0",
+                                    "badges": "broadcaster/1,subscriber/0,partner/1",
                                     "color": "#9d95ac",
                                     "display-name": "Sonnelia",
                                     "emotes": "",
@@ -307,6 +301,12 @@ window.addEventListener("onEventReceived", obj => {
                                         "version": "0",
                                         "url": "https://static-cdn.jtvnw.net/badges/v1/5d9f2208-5dd8-11e7-8513-2ff4adfae661/3",
                                         "description": "Subscriber"
+                                    },
+                                    {
+                                        "type": "partner",
+                                        "version": "1",
+                                        "url": "https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/3",
+                                        "description": "Verified"
                                     }
                                 ],
                                 "channel": channelName,
@@ -563,36 +563,40 @@ window.addEventListener("onEventReceived", obj => {
                         "time": Date.now(),
                         "tags": {
                             "badge-info": "subscriber/14",
-                            "badges": "broadcaster/1,subscriber/0",
+                            "badges": "broadcaster/1,subscriber/0,partner/1",
                             "client-nonce": "d35b21a75079310076f33488c44f5c3a",
                             "color": "#9d95ac",
                             "display-name": "sonnelia",
+                            "user-id": "6",
+                            "subscriber": "1",
+                            "mod": "0",
+                            "user-type": "",
                             "emotes": "",
                             "first-msg": "0",
                             "flags": "",
                             "id": "6a7cf06f-4a54-4437-9742-5c4036b90c3f",
-                            "mod": "0",
+                            "returning-chatter": "0",
+                            "room-id": "63065903",
+                            "tmi-sent-ts": "1711118336081",
+                            "turbo": "0",
                             "reply-parent-display-name": "にこりん",
+                            "reply-parent-user-login": "nikorin",
                             "reply-parent-msg-body": "Please\\sreply\\sto\\sme\\sbelow!\\sI\\swill\\stry\\sto\\sbe\\svery\\slong\\sto\\ssee\\sif\\sthe\\smessage\\sgets\\scut\\scorrectly",
                             "reply-parent-msg-id": "cb696381-9751-4985-a898-5c28d69ab3a2",
                             "reply-parent-user-id": "4",
-                            "reply-parent-user-login": "nikorin",
                             "reply-thread-parent-display-name": "にこりん",
-                            "reply-thread-parent-msg-id": "cb696381-9751-4985-a898-5c28d69ab3a2",
-                            "reply-thread-parent-user-id": "4",
                             "reply-thread-parent-user-login": "nikorin",
-                            "returning-chatter": "0",
-                            "room-id": "63065903",
-                            "subscriber": "1",
-                            "tmi-sent-ts": "1711118336081",
-                            "turbo": "0",
-                            "user-id": "6",
-                            "user-type": ""
+                            "reply-thread-parent-msg-id": "cb696381-9751-4985-a898-5c28d69ab3a2",
+                            "reply-thread-parent-user-id": "4"
                         },
-                        "nick": "sonnelia",
-                        "userId": "6",
                         "displayName": "Sonnelia",
+                        "nick": "sonnelia",
+                        "text": "@にこりん reply message hehe",
+                        "userId": "6",
                         "displayColor": "#9d95ac",
+                        "channel": channelName,
+                        "isAction": false,
+                        "msgId": "6a7cf06f-4a54-4437-9742-5c4036b90c3f",
                         "badges": [
                             {
                                 "type": "broadcaster",
@@ -605,11 +609,14 @@ window.addEventListener("onEventReceived", obj => {
                                 "version": "0",
                                 "url": "https://static-cdn.jtvnw.net/badges/v1/5d9f2208-5dd8-11e7-8513-2ff4adfae661/3",
                                 "description": "Subscriber"
+                            },
+                            {
+                                "type": "partner",
+                                "version": "1",
+                                "url": "https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/3",
+                                "description": "Verified"
                             }
                         ],
-                        "channel": channelName,
-                        "text": "@にこりん reply message hehe",
-                        "isAction": false,
                         "emotes": [
                             {
                                 "animated": false,
@@ -626,8 +633,7 @@ window.addEventListener("onEventReceived", obj => {
                                     "4": "https://cdn.7tv.app/emote/618cc5a217e4d50afc0cf377/4x.webp"
                                 }
                             }
-                        ],
-                        "msgId": "6a7cf06f-4a54-4437-9742-5c4036b90c3f"
+                        ]
                     },}
                 }
             });
@@ -727,7 +733,7 @@ window.addEventListener("onEventReceived", obj => {
                         "time": Date.now(),
                         "tags": {
                             "badge-info": "subscriber/14",
-                            "badges": "broadcaster/1,subscriber/0",
+                            "badges": "broadcaster/1,subscriber/0,partner/1",
                             "client-nonce": "d35b21a75079310076f33488c44f5c3a",
                             "color": "#9d95ac",
                             "display-name": "sonnelia",
@@ -769,6 +775,12 @@ window.addEventListener("onEventReceived", obj => {
                                 "version": "0",
                                 "url": "https://static-cdn.jtvnw.net/badges/v1/5d9f2208-5dd8-11e7-8513-2ff4adfae661/3",
                                 "description": "Subscriber"
+                            },
+                            {
+                                "type": "partner",
+                                "version": "1",
+                                "url": "https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/3",
+                                "description": "Verified"
                             }
                         ],
                         "channel": channelName,
@@ -854,7 +866,7 @@ window.addEventListener("onEventReceived", obj => {
                             "time": Date.now(),
                             "tags": {
                                 "badge-info": "subscriber/14",
-                                "badges": "broadcaster/1,subscriber/0",
+                                "badges": "broadcaster/1,subscriber/0,partner/1",
                                 "color": "#9d95ac",
                                 "display-name": "Sonnelia",
                                 "emotes": "",
@@ -886,6 +898,12 @@ window.addEventListener("onEventReceived", obj => {
                                     "version": "0",
                                     "url": "https://static-cdn.jtvnw.net/badges/v1/5d9f2208-5dd8-11e7-8513-2ff4adfae661/3",
                                     "description": "Subscriber"
+                                },
+                                {
+                                    "type": "partner",
+                                    "version": "1",
+                                    "url": "https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/3",
+                                    "description": "Verified"
                                 }
                             ],
                             "channel": channelName,
@@ -914,6 +932,77 @@ window.addEventListener("onEventReceived", obj => {
                     window.dispatchEvent(events[i]);
                 }, 1000 * i);
             }
+        }
+        
+        if (obj.detail.event.field === "nightbotMessage") {
+            let emulated = new CustomEvent("onEventReceived", {
+                detail: {
+                    "listener": "message",
+                    "event": {
+                        "service": "twitch",
+                        "data": {
+                            "time": Date.now(),
+                            "tags": {
+                                "badge-info": "subscriber/14",
+                                "badges": "moderator/1,subscriber/0,partner/1",
+                                "color": "#7c7ce1",
+                                "display-name": "Nightbot",
+                                "emotes": "",
+                                "first-msg": "0",
+                                "flags": "",
+                                "id": "314588ea-eb54-4047-bdd9-7d2f6e3bbd68",
+                                "mod": "1",
+                                "returning-chatter": "0",
+                                "room-id": "63065903",
+                                "subscriber": "0",
+                                "tmi-sent-ts": "1688897514912",
+                                "turbo": "0",
+                                "user-id": "8",
+                                "user-type": "mod",
+                                "reply-parent-display-name": "Nightbot",
+                                "reply-parent-user-login": "nightbot",
+                                "reply-parent-msg-body": "──────▄▌▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌\\s───▄▄██▌█\\sBEEP\\sBEEP\\s\\s⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\\s▄▄▄▌▐██▌█\\s-43\\sLP\\sDELIVERY\\s███████▌█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌\\s▀(⊙)▀▀▀▀▀▀▀(⊙)(⊙)▀▀▀▀▀▀▀▀▀▀(⊙)▀▀",
+                                "reply-parent-msg-id": "cb696381-9751-4985-a898-5c28d69ab3a2",
+                                "reply-parent-user-id": "8",
+                                "reply-thread-parent-display-name": "Nightbot",
+                                "reply-thread-parent-user-login": "nightbot",
+                                "reply-thread-parent-msg-id": "cb696381-9751-4985-a898-5c28d69ab3a2",
+                                "reply-thread-parent-user-id": "8"
+                            },
+                            "nick": "nightbot",
+                            "userId": "8",
+                            "displayName": "Nightbot",
+                            "displayColor": "#7c7ce1",
+                            "badges": [
+                                {
+                                    "type": "moderator",
+                                    "version": "1",
+                                    "url": "https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41db1d0/3",
+                                    "description": "Moderator"
+                                },
+                                {
+                                    "type": "subscriber",
+                                    "version": "0",
+                                    "url": "https://static-cdn.jtvnw.net/badges/v1/5d9f2208-5dd8-11e7-8513-2ff4adfae661/3",
+                                    "description": "Subscriber"
+                                },
+                                {
+                                    "type": "partner",
+                                    "version": "1",
+                                    "url": "https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/3",
+                                    "description": "Verified"
+                                }
+                            ],
+                            "channel": channelName,
+                            "text": " ──────▄▌▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌ ───▄▄██▌█ BEEP BEEP ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ▄▄▄▌▐██▌█ -44 LP DELIVERY ███████▌█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌ ▀(⊙)▀▀▀▀▀▀▀(⊙)(⊙)▀▀▀▀▀▀▀▀▀▀(⊙)▀▀",
+                            "isAction": true,
+                            "emotes": [],
+                            "msgId": "314588ea-eb54-4047-bdd9-7d2f6e3bbd68"
+                        },
+                    }
+                }
+            });
+            window.dispatchEvent(emulated);
         }
 
         //FOLLOW, SUB, RESUB, GIFTSUB, BULKGIFTSUB, CHEER, RAID, HOST, UPDATE
