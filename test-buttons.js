@@ -17,35 +17,34 @@ window.addEventListener("onEventReceived", obj => {
                         "service": "twitch",
                         "data": {
                             "time": Date.now(),
+                            "channel": channelName,
                             "tags": {
+                                "room-id": "000",
+                                "display-name": "RegularViewer",
+                                "user-id": "1",
+                                "id": "1-001",
+                                "color": "#efeff1",
                                 "badge-info": "",
                                 "badges": "",
-                                "color": "#efeff1",
-                                "display-name": "RegularViewer",
-                                "emotes": "",
-                                "first-msg": "0",
-                                "flags": "",
-                                "id": "514ad498-1139-4002-a52d-700cf099d015",
-                                "mod": "0",
-                                "returning-chatter": "0",
-                                "room-id": "63065903",
                                 "subscriber": "0",
-                                "tmi-sent-ts": "1711108669423",
+                                "mod": "0",
                                 "turbo": "0",
-                                "user-id": "1",
-                                "user-type": ""
+                                "returning-chatter": "0",
+                                "first-msg": "0",
+                                "user-type": "",
+                                "emotes": "",
+                                "flags": ""
                             },
+                            "displayName": "RegularViewer",
                             "nick": "regularviewer",
                             "userId": "1",
-                            "displayName": "RegularViewer",
+                            "msgId": "1-001",
                             "displayColor": "#efeff1",
-                            "badges": [],
-                            "channel": channelName,
                             "text": "A message from a regular viewer",
                             "isAction": false,
-                            "emotes": [],
-                            "msgId": "514ad498-1139-4002-a52d-700cf099d015"
-                        },
+                            "badges": [],
+                            "emotes": []
+                        }
                     }
                 }
             });
@@ -60,28 +59,31 @@ window.addEventListener("onEventReceived", obj => {
                         "service": "twitch",
                         "data": {
                             "time": Date.now(),
+                            "channel": channelName,
                             "tags": {
+                                "room-id": "000",
+                                "display-name": "Subscriber",
+                                "user-id": "2",
+                                "id": "2-001",
+                                "color": "#9b62ac",
                                 "badge-info": "subscriber/14",
                                 "badges": " subscriber/0",
-                                "color": "#9b62ac",
-                                "display-name": "Subscriber",
-                                "emotes": "",
-                                "first-msg": "0",
-                                "flags": "",
-                                "id": "22c694d7-53fd-4d9f-bde4-dfa9507cda30",
-                                "mod": "0",
-                                "returning-chatter": "0",
-                                "room-id": "63065903",
                                 "subscriber": "1",
-                                "tmi-sent-ts": "1688898286742",
+                                "mod": "0",
                                 "turbo": "0",
-                                "user-id": "2",
-                                "user-type": ""
+                                "returning-chatter": "0",
+                                "first-msg": "0",
+                                "user-type": "",
+                                "emotes": "",
+                                "flags": ""
                             },
+                            "displayName": "Subscriber",
                             "nick": "subscriber",
                             "userId": "2",
-                            "displayName": "Subscriber",
+                            "msgId": "2-001",
                             "displayColor": "#9b62ac",
+                            "text": "Subscriber message!",
+                            "isAction": false,
                             "badges": [
                                 {
                                     "type": "subscriber",
@@ -90,12 +92,8 @@ window.addEventListener("onEventReceived", obj => {
                                     "description": "Subscriber"
                                 }
                             ],
-                            "channel": channelName,
-                            "text": "Subscriber message!",
-                            "isAction": false,
-                            "emotes": [],
-                            "msgId": "22c694d7-53fd-4d9f-bde4-dfa9507cda30"
-                        },
+                            "emotes": []
+                        }
                     }
                 }
             });
@@ -110,29 +108,33 @@ window.addEventListener("onEventReceived", obj => {
                         "service": "twitch",
                         "data": {
                             "time": Date.now(),
+                            "channel": channelName,
                             "tags": {
+                                "room-id": "000",
+                                "display-name": "VeryImportantPerson",
+                                "user-id": "3",
+                                "id": "3-001",
+                                "badge-info": "",
+                                "color": "#ff69b4",
                                 "badge-info": "",
                                 "badges": "vip/1",
-                                "color": "#ff69b4",
-                                "display-name": "VeryImportantPerson",
-                                "emotes": "",
-                                "first-msg": "0",
-                                "flags": "",
-                                "id": "f64d86b5-dd6a-4a10-8924-916c89c499bb",
-                                "mod": "0",
-                                "returning-chatter": "0",
-                                "room-id": "63065903",
+                                "vip": "1",
                                 "subscriber": "0",
-                                "tmi-sent-ts": "1688897999440",
+                                "mod": "0",
                                 "turbo": "0",
-                                "user-id": "3",
+                                "returning-chatter": "0",
+                                "first-msg": "0",
                                 "user-type": "",
-                                "vip": "1"
+                                "emotes": "",
+                                "flags": ""
                             },
+                            "displayName": "VeryImportantPerson",
                             "nick": "veryimportantperson",
                             "userId": "3",
-                            "displayName": "VeryImportantPerson",
+                            "msgId": "3-001",
                             "displayColor": "#ff69b4",
+                            "text": "VIP message",
+                            "isAction": false,
                             "badges": [
                                 {
                                     "type": "vip",
@@ -141,12 +143,8 @@ window.addEventListener("onEventReceived", obj => {
                                     "description": "VIP"
                                 }
                             ],
-                            "channel": channelName,
-                            "text": "VIP message",
-                            "isAction": false,
-                            "emotes": [],
-                            "msgId": "f64d86b5-dd6a-4a10-8924-916c89c499bb"
-                        },
+                            "emotes": []
+                        }
                     }
                 }
             });
@@ -161,28 +159,31 @@ window.addEventListener("onEventReceived", obj => {
                         "service": "twitch",
                         "data": {
                             "time": Date.now(),
+                            "channel": channelName,
                             "tags": {
+                                "room-id": "000",
+                                "display-name": "にこりん",
+                                "user-id": "4",
+                                "id": "4-001",
+                                "color": "#5F9EA0",
                                 "badge-info": "",
                                 "badges": "artist-badge/1",
-                                "color": "#5F9EA0",
-                                "display-name": "にこりん",
-                                "emotes": "",
-                                "first-msg": "0",
-                                "flags": "",
-                                "id": "f64d86b5-dd6a-4a10-8924-916c89c499bb",
-                                "mod": "0",
-                                "returning-chatter": "0",
-                                "room-id": "63065903",
                                 "subscriber": "0",
-                                "tmi-sent-ts": "1688897999440",
+                                "mod": "0",
                                 "turbo": "0",
-                                "user-id": "4",
-                                "user-type": ""
+                                "returning-chatter": "0",
+                                "first-msg": "0",
+                                "user-type": "",
+                                "emotes": "",
+                                "flags": ""
                             },
+                            "displayName": "にこりん",
                             "nick": "nikorin",
                             "userId": "4",
-                            "displayName": "にこりん",
+                            "msgId": "4-001",
                             "displayColor": "#5F9EA0",
+                            "text": "Artist message",
+                            "isAction": false,
                             "badges": [
                                 {
                                     "type": "artist-badge",
@@ -191,12 +192,8 @@ window.addEventListener("onEventReceived", obj => {
                                     "description": "Artist"
                                 }
                             ],
-                            "channel": channelName,
-                            "text": "Artist message",
-                            "isAction": false,
-                            "emotes": [],
-                            "msgId": "f64d86b5-dd6a-4a10-8924-916c89c499bb"
-                        },
+                            "emotes": []
+                        }
                     }
                 }
             });
@@ -211,28 +208,31 @@ window.addEventListener("onEventReceived", obj => {
                         "service": "twitch",
                         "data": {
                             "time": Date.now(),
+                            "channel": channelName,
                             "tags": {
+                                "room-id": "63065903",
+                                "display-name": "Moderator",
+                                "user-id": "5",
+                                "id": "5-001",
+                                "color": "#2e8b57",
                                 "badge-info": "",
                                 "badges": "moderator/1,subscriber/0",
-                                "color": "#2e8b57",
-                                "display-name": "Moderator",
-                                "emotes": "",
-                                "first-msg": "0",
-                                "flags": "",
-                                "id": "314588ea-eb54-4047-bdd9-7d2f6e3bbd68",
+                                "subscriber": "1",
                                 "mod": "1",
-                                "returning-chatter": "0",
-                                "room-id": "63065903",
-                                "subscriber": "0",
-                                "tmi-sent-ts": "1688897514912",
                                 "turbo": "0",
-                                "user-id": "5",
-                                "user-type": "mod"
+                                "returning-chatter": "0",
+                                "first-msg": "0",
+                                "user-type": "mod",
+                                "emotes": "",
+                                "flags": ""
                             },
+                            "displayName": "Moderator",
                             "nick": "moderator",
                             "userId": "5",
-                            "displayName": "Moderator",
+                            "msgId": "5-001",
                             "displayColor": "#2e8b57",
+                            "text": "I HAVE THE POWER HERE! >:D",
+                            "isAction": false,
                             "badges": [
                                 {
                                     "type": "moderator",
@@ -247,12 +247,8 @@ window.addEventListener("onEventReceived", obj => {
                                     "description": "Subscriber"
                                 }
                             ],
-                            "channel": channelName,
-                            "text": "I HAVE THE POWER HERE! >:D",
-                            "isAction": false,
-                            "emotes": [],
-                            "msgId": "314588ea-eb54-4047-bdd9-7d2f6e3bbd68"
-                        },
+                            "emotes": []
+                        }
                     }
                 }
             });
@@ -267,28 +263,31 @@ window.addEventListener("onEventReceived", obj => {
                             "service": "twitch",
                             "data": {
                                 "time": Date.now(),
+                                "channel": channelName,
                                 "tags": {
+                                    "room-id": "000",
+                                    "display-name": "Sonnelia",
+                                    "user-id": "6",
+                                    "id": "6-001",
+                                    "color": "#9d95ac",
                                     "badge-info": "subscriber/14",
                                     "badges": "broadcaster/1,subscriber/0,partner/1",
-                                    "color": "#9d95ac",
-                                    "display-name": "Sonnelia",
-                                    "emotes": "",
-                                    "first-msg": "0",
-                                    "flags": "",
-                                    "id": "54b903a4-1130-4c46-820b-f589b7102c4b",
-                                    "mod": "0",
-                                    "returning-chatter": "0",
-                                    "room-id": "63065903",
                                     "subscriber": "1",
-                                    "tmi-sent-ts": "1688895262653",
+                                    "mod": "0",
                                     "turbo": "0",
-                                    "user-id": "6",
-                                    "user-type": ""
+                                    "returning-chatter": "0",
+                                    "first-msg": "0",
+                                    "user-type": "",
+                                    "emotes": "",
+                                    "flags": ""
                                 },
+                                "displayName": "Sonnelia",
                                 "nick": "sonnelia",
                                 "userId": "6",
-                                "displayName": "Sonnelia",
+                                "msgId": "6-001",
                                 "displayColor": "#9d95ac",
+                                "text": "This is a broadcaster message!",
+                                "isAction": false,
                                 "badges": [
                                     {
                                         "type": "broadcaster",
@@ -309,12 +308,8 @@ window.addEventListener("onEventReceived", obj => {
                                         "description": "Verified"
                                     }
                                 ],
-                                "channel": channelName,
-                                "text": "This is a broadcaster message!",
-                                "isAction": false,
-                                "emotes": [],
-                                "msgId": "54b903a4-1130-4c46-820b-f589b7102c4b"
-                            },
+                                "emotes": []
+                            }
                         }
                     }
                 });
@@ -329,29 +324,32 @@ window.addEventListener("onEventReceived", obj => {
                         "service": "twitch",
                         "data": {
                             "time": Date.now(),
+                            "channel": channelName,
                             "tags": {
+                                "room-id": "000",
+                                "display-name": "VeryImportantPerson",
+                                "user-id": "3",
+                                "id": "3-002",
+                                "color": "#ff69b4",
                                 "badge-info": "",
                                 "badges": "vip/1",
-                                "color": "#ff69b4",
-                                "display-name": "VeryImportantPerson",
-                                "emotes": "",
-                                "first-msg": "0",
-                                "flags": "",
-                                "id": "f64d86b5-dd6a-4a10-8924-916c89c499bb",
-                                "mod": "0",
-                                "returning-chatter": "0",
-                                "room-id": "63065903",
+                                "vip": "1",
                                 "subscriber": "0",
-                                "tmi-sent-ts": "1688897999440",
+                                "mod": "0",
                                 "turbo": "0",
-                                "user-id": "3",
+                                "returning-chatter": "0",
+                                "first-msg": "0",
                                 "user-type": "",
-                                "vip": "1"
+                                "emotes": "",
+                                "flags": ""
                             },
+                            "displayName": "VeryImportantPerson",
                             "nick": "veryimportantperson",
                             "userId": "3",
-                            "displayName": "VeryImportantPerson",
+                            "msgId": "3-002",
                             "displayColor": "#ff69b4",
+                            "text": "Action message (type /me at the front of a message)",
+                            "isAction": true,
                             "badges": [
                                 {
                                     "type": "vip",
@@ -360,12 +358,8 @@ window.addEventListener("onEventReceived", obj => {
                                     "description": "VIP"
                                 }
                             ],
-                            "channel": channelName,
-                            "text": "Action message (type /me at the front of a message)",
-                            "isAction": true,
-                            "emotes": [],
-                            "msgId": "514ad498-1139-4002-a52d-700cf099d015"
-                        },
+                            "emotes": []
+                        }
                     }
                 }
             });
@@ -380,36 +374,35 @@ window.addEventListener("onEventReceived", obj => {
                         "service": "twitch",
                         "data": {
                             "time": Date.now(),
+                            "channel": channelName,
                             "tags": {
+                                "room-id": "000",
+                                "display-name": "RegularViewer",
+                                "user-id": "1",
+                                "id": "1-002",
+                                "color": "#efeff1",
                                 "badge-info": "",
                                 "badges": "",
-                                "color": "#efeff1",
-                                "display-name": "RegularViewer",
-                                "emotes": "",
-                                "first-msg": "0",
-                                "flags": "",
-                                "id": "514ad498-1139-4002-a52d-700cf099d015",
-                                "mod": "0",
-                                "msg-id": "highlighted-message",
-                                "returning-chatter": "0",
-                                "room-id": "63065903",
                                 "subscriber": "0",
-                                "tmi-sent-ts": "1711108669423",
+                                "mod": "0",
                                 "turbo": "0",
-                                "user-id": "1",
-                                "user-type": ""
+                                "returning-chatter": "0",
+                                "first-msg": "0",
+                                "user-type": "",
+                                "emotes": "",
+                                "flags": "",
+                                "msg-id": "highlighted-message"
                             },
+                            "displayName": "RegularViewer",
                             "nick": "regularviewer",
                             "userId": "1",
-                            "displayName": "RegularViewer",
+                            "msgId": "1-002",
                             "displayColor": "#efeff1",
-                            "badges": [],
-                            "channel": channelName,
                             "text": "Highlighted message~! Can be purchased with channel points",
                             "isAction": false,
+                            "badges": [],
                             "emotes": [],
-                            "msgId": "514ad498-1139-4002-a52d-700cf099d015"
-                        },
+                        }
                     }
                 }
             });
@@ -424,32 +417,32 @@ window.addEventListener("onEventReceived", obj => {
                         "service": "twitch",
                         "data": {
                             "time": Date.now(),
+                            "channel": channelName,
                             "tags": {
+                                "room-id": "000",
+                                "display-name": "RegularViewer",
+                                "user-id": "1",
+                                "id": "1-003",
+                                "color": "#efeff1",
                                 "badge-info": "",
                                 "badges": "",
-                                "color": "#efeff1",
-                                "display-name": "RegularViewer",
-                                "emotes": "",
-                                "first-msg": "0",
-                                "flags": "",
-                                "id": "514ad498-1139-4002-a52d-700cf099d015",
-                                "mod": "0",
-                                "returning-chatter": "0",
-                                "room-id": "63065903",
                                 "subscriber": "0",
-                                "tmi-sent-ts": "1711108669423",
+                                "mod": "0",
                                 "turbo": "0",
-                                "user-id": "1",
-                                "user-type": ""
+                                "returning-chatter": "0",
+                                "first-msg": "0",
+                                "user-type": "",
+                                "emotes": "",
+                                "flags": ""
                             },
+                            "displayName": "RegularViewer",
                             "nick": "regularviewer",
                             "userId": "1",
-                            "displayName": "RegularViewer",
+                            "msgId": "1-003",
                             "displayColor": "#efeff1",
-                            "badges": [],
-                            "channel": channelName,
                             "text": "hehe wideSNIFFA WideJoel",
                             "isAction": false,
+                            "badges": [],
                             "emotes": [
                                 {
                                     "animated": false,
@@ -466,39 +459,38 @@ window.addEventListener("onEventReceived", obj => {
                                         "4": "https://cdn.7tv.app/emote/618cc5a217e4d50afc0cf377/4x.webp"
                                     }
                                 },
-                                    {
-                                        "animated": true,
-                                        "gif": true,
-                                        "start": 5,
-                                        "end": 15,
-                                        "id": "6212e98f180be49d725bdfa8",
-                                        "name": "wideSNIFFA",
-                                        "type": "7tv",
-                                        "urls": {
-                                            "1": "https://cdn.7tv.app/emote/6212e98f180be49d725bdfa8/1x.webp",
-                                            "2": "https://cdn.7tv.app/emote/6212e98f180be49d725bdfa8/2x.webp",
-                                            "3": "https://cdn.7tv.app/emote/6212e98f180be49d725bdfa8/3x.webp",
-                                            "4": "https://cdn.7tv.app/emote/6212e98f180be49d725bdfa8/4x.webp"
-                                        }
-                                    },
-                                        {
-                                            "animated": true,
-                                            "gif": true,
-                                            "start": 16,
-                                            "end": 24,
-                                            "id": "63f3e81bface0f3bbeaad78e",
-                                            "name": "WideJoel",
-                                            "type": "7tv",
-                                            "urls": {
-                                                "1": "https://cdn.7tv.app/emote/63f3e81bface0f3bbeaad78e/1x.webp",
-                                                "2": "https://cdn.7tv.app/emote/63f3e81bface0f3bbeaad78e/2x.webp",
-                                                "3": "https://cdn.7tv.app/emote/63f3e81bface0f3bbeaad78e/3x.webp",
-                                                "4": "https://cdn.7tv.app/emote/63f3e81bface0f3bbeaad78e/4x.webp"
-                                            }
-                                        }
-                            ],
-                            "msgId": "328c2bd1-5ece-454a-8788-352e7da38ce2"
-                        },
+                                {
+                                    "animated": true,
+                                    "gif": true,
+                                    "start": 5,
+                                    "end": 15,
+                                    "id": "6212e98f180be49d725bdfa8",
+                                    "name": "wideSNIFFA",
+                                    "type": "7tv",
+                                    "urls": {
+                                        "1": "https://cdn.7tv.app/emote/6212e98f180be49d725bdfa8/1x.webp",
+                                        "2": "https://cdn.7tv.app/emote/6212e98f180be49d725bdfa8/2x.webp",
+                                        "3": "https://cdn.7tv.app/emote/6212e98f180be49d725bdfa8/3x.webp",
+                                        "4": "https://cdn.7tv.app/emote/6212e98f180be49d725bdfa8/4x.webp"
+                                    }
+                                },
+                                {
+                                    "animated": true,
+                                    "gif": true,
+                                    "start": 16,
+                                    "end": 24,
+                                    "id": "63f3e81bface0f3bbeaad78e",
+                                    "name": "WideJoel",
+                                    "type": "7tv",
+                                    "urls": {
+                                        "1": "https://cdn.7tv.app/emote/63f3e81bface0f3bbeaad78e/1x.webp",
+                                        "2": "https://cdn.7tv.app/emote/63f3e81bface0f3bbeaad78e/2x.webp",
+                                        "3": "https://cdn.7tv.app/emote/63f3e81bface0f3bbeaad78e/3x.webp",
+                                        "4": "https://cdn.7tv.app/emote/63f3e81bface0f3bbeaad78e/4x.webp"
+                                    }
+                                }
+                            ]
+                        }
                     }
                 }
             });
@@ -513,29 +505,31 @@ window.addEventListener("onEventReceived", obj => {
                         "service": "twitch",
                         "data": {
                             "time": Date.now(),
+                            "channel": channelName,
                             "tags": {
+                                "room-id": "000",
+                                "display-name": "にこりん",
+                                "user-id": "4",
+                                "id": "4-002",
+                                "color": "#5F9EA0",
                                 "badge-info": "",
                                 "badges": "artist-badge/1",
-                                "client-nonce": "dbac27a4cd2c31da8166a1711d513272",
-                                "color": "#5F9EA0",
-                                "display-name": "にこりん",
-                                "emotes": "",
-                                "first-msg": "0",
-                                "flags": "",
-                                "id": "baeed773-a977-450e-ae76-a37fc77e4a8c",
-                                "mod": "0",
-                                "returning-chatter": "0",
-                                "room-id": "63065903",
                                 "subscriber": "0",
-                                "tmi-sent-ts": "1711118332284",
+                                "mod": "0",
                                 "turbo": "0",
-                                "user-id": "4",
-                                "user-type": ""
+                                "returning-chatter": "0",
+                                "first-msg": "0",
+                                "user-type": "",
+                                "emotes": "",
+                                "flags": ""
                             },
+                            "displayName": "にこりん",
                             "nick": "nikorin",
                             "userId": "4",
-                            "displayName": "にこりん",
+                            "msgId": "4-002",
                             "displayColor": "#5F9EA0",
+                            "text": "Please reply to me below! I will try to be very long to see if the message gets cut correctly",
+                            "isAction": false,
                             "badges": [
                                 {
                                     "type": "artist-badge",
@@ -544,12 +538,8 @@ window.addEventListener("onEventReceived", obj => {
                                     "description": "Artist"
                                 }
                             ],
-                            "channel": channelName,
-                            "text": "Please reply to me below! I will try to be very long to see if the message gets cut correctly",
-                            "isAction": false,
-                            "emotes": [],
-                            "msgId": "cb696381-9751-4985-a898-5c28d69ab3a2"
-                        },
+                            "emotes": []
+                        }
                     }
                 }
             });
@@ -561,42 +551,40 @@ window.addEventListener("onEventReceived", obj => {
                     "service": "twitch",
                     "data": {
                         "time": Date.now(),
+                        "channel": channelName,
                         "tags": {
+                            "room-id": "000",
+                            "display-name": "Sonnelia",
+                            "user-id": "6",
+                            "id": "6-002",
+                            "color": "#9d95ac",
                             "badge-info": "subscriber/14",
                             "badges": "broadcaster/1,subscriber/0,partner/1",
-                            "client-nonce": "d35b21a75079310076f33488c44f5c3a",
-                            "color": "#9d95ac",
-                            "display-name": "sonnelia",
-                            "user-id": "6",
                             "subscriber": "1",
                             "mod": "0",
+                            "turbo": "0",
+                            "returning-chatter": "0",
+                            "first-msg": "0",
                             "user-type": "",
                             "emotes": "",
-                            "first-msg": "0",
                             "flags": "",
-                            "id": "6a7cf06f-4a54-4437-9742-5c4036b90c3f",
-                            "returning-chatter": "0",
-                            "room-id": "63065903",
-                            "tmi-sent-ts": "1711118336081",
-                            "turbo": "0",
                             "reply-parent-display-name": "にこりん",
                             "reply-parent-user-login": "nikorin",
-                            "reply-parent-msg-body": "Please\\sreply\\sto\\sme\\sbelow!\\sI\\swill\\stry\\sto\\sbe\\svery\\slong\\sto\\ssee\\sif\\sthe\\smessage\\sgets\\scut\\scorrectly",
-                            "reply-parent-msg-id": "cb696381-9751-4985-a898-5c28d69ab3a2",
                             "reply-parent-user-id": "4",
+                            "reply-parent-msg-id": "4-002",
+                            "reply-parent-msg-body": "Please\\sreply\\sto\\sme\\sbelow!\\sI\\swill\\stry\\sto\\sbe\\svery\\slong\\sto\\ssee\\sif\\sthe\\smessage\\sgets\\scut\\scorrectly",
                             "reply-thread-parent-display-name": "にこりん",
                             "reply-thread-parent-user-login": "nikorin",
-                            "reply-thread-parent-msg-id": "cb696381-9751-4985-a898-5c28d69ab3a2",
-                            "reply-thread-parent-user-id": "4"
+                            "reply-thread-parent-user-id": "4",
+                            "reply-thread-parent-msg-id": "4-002"
                         },
                         "displayName": "Sonnelia",
                         "nick": "sonnelia",
-                        "text": "@にこりん reply message hehe",
                         "userId": "6",
+                        "msgId": "6-002",
                         "displayColor": "#9d95ac",
-                        "channel": channelName,
+                        "text": "@にこりん reply message hehe",
                         "isAction": false,
-                        "msgId": "6a7cf06f-4a54-4437-9742-5c4036b90c3f",
                         "badges": [
                             {
                                 "type": "broadcaster",
@@ -634,9 +622,10 @@ window.addEventListener("onEventReceived", obj => {
                                 }
                             }
                         ]
-                    },}
+                    }
                 }
-            });
+            }
+        });
             window.dispatchEvent(emulated);
               setTimeout(() => {
                 window.dispatchEvent(emulated2);
@@ -651,34 +640,33 @@ window.addEventListener("onEventReceived", obj => {
                         "service": "twitch",
                         "data": {
                             "time": Date.now(),
+                            "channel": channelName,
                             "tags": {
+                                "room-id": "000",
+                                "display-name": "NewChatter",
+                                "user-id": "7",
+                                "id": "7-001",
+                                "color": "#daa520",
                                 "badge-info": "",
                                 "badges": "",
-                                "color": "#daa520",
-                                "display-name": "NewChatter",
-                                "emotes": "",
-                                "first-msg": "0",
-                                "flags": "",
-                                "id": "514ad498-1139-4002-a52d-700cf099d015",
-                                "mod": "0",
-                                "returning-chatter": "0",
-                                "room-id": "63065903",
                                 "subscriber": "0",
-                                "tmi-sent-ts": "1711108669423",
+                                "mod": "0",
                                 "turbo": "0",
-                                "user-id": "7",
-                                "user-type": ""
+                                "returning-chatter": "0",
+                                "first-msg": "0",
+                                "user-type": "",
+                                "emotes": "",
+                                "flags": ""
                             },
+                            "displayName": "NewChatter",
                             "nick": "newchatter",
                             "userId": "7",
-                            "displayName": "NewChatter",
+                            "msgId": "7-001",
                             "displayColor": "#daa520",
-                            "badges": [],
-                            "channel": channelName,
                             "text": "*insert a bad word here*",
                             "isAction": false,
-                            "emotes": [],
-                            "msgId": "514ad498-1139-4002-a52d-700cf099d011"
+                            "badges": [],
+                            "emotes": []
                         },
                     }
                 }
@@ -691,34 +679,33 @@ window.addEventListener("onEventReceived", obj => {
                         "service": "twitch",
                         "data": {
                             "time": Date.now(),
+                            "channel": channelName,
                             "tags": {
+                                "room-id": "000",
+                                "display-name": "NewChatter",
+                                "user-id": "7",
+                                "id": "7-002",
+                                "color": "#daa520",
                                 "badge-info": "",
                                 "badges": "",
-                                "color": "#daa520",
-                                "display-name": "NewChatter",
-                                "emotes": "",
-                                "first-msg": "0",
-                                "flags": "",
-                                "id": "514ad498-1139-4002-a52d-700cf099d015",
-                                "mod": "0",
-                                "returning-chatter": "0",
-                                "room-id": "63065903",
                                 "subscriber": "0",
-                                "tmi-sent-ts": "1711108669423",
+                                "mod": "0",
                                 "turbo": "0",
-                                "user-id": "7",
-                                "user-type": ""
+                                "returning-chatter": "0",
+                                "first-msg": "0",
+                                "user-type": "",
+                                "emotes": "",
+                                "flags": ""
                             },
+                            "displayName": "NewChatter",
                             "nick": "newchatter",
                             "userId": "7",
-                            "displayName": "NewChatter",
+                            "msgId": "7-002",
                             "displayColor": "#daa520",
-                            "badges": [],
-                            "channel": channelName,
                             "text": "haha, i'm invincible!",
                             "isAction": true,
-                            "emotes": [],
-                            "msgId": "514ad498-1139-4002-a52d-700cf099d015"
+                            "badges": [],
+                            "emotes": []
                         },
                     }
                 }
@@ -731,38 +718,40 @@ window.addEventListener("onEventReceived", obj => {
                     "service": "twitch",
                     "data": {
                         "time": Date.now(),
+                        "channel": channelName,
                         "tags": {
+                            "room-id": "000",
+                            "display-name": "Sonnelia",
+                            "user-id": "6",
+                            "id": "6-003",
+                            "color": "#9d95ac",
                             "badge-info": "subscriber/14",
                             "badges": "broadcaster/1,subscriber/0,partner/1",
-                            "client-nonce": "d35b21a75079310076f33488c44f5c3a",
-                            "color": "#9d95ac",
-                            "display-name": "sonnelia",
-                            "emotes": "",
-                            "first-msg": "0",
-                            "flags": "",
-                            "id": "6a7cf06f-4a54-4437-9742-5c4036b90c3f",
-                            "mod": "0",
-                            "reply-parent-display-name": "NewChatter",
-                            "reply-parent-msg-body": "haha,\\si'm\\sinvincible!",
-                            "reply-parent-msg-id": "cb696381-9751-4985-a898-5c28d69ab3a2",
-                            "reply-parent-user-id": "7",
-                            "reply-parent-user-login": "newchatter",
-                            "reply-thread-parent-display-name": "NewChatter",
-                            "reply-thread-parent-msg-id": "cb696381-9751-4985-a898-5c28d69ab3a2",
-                            "reply-thread-parent-user-id": "7",
-                            "reply-thread-parent-user-login": "newchatter",
-                            "returning-chatter": "0",
-                            "room-id": "63065903",
                             "subscriber": "1",
-                            "tmi-sent-ts": "1711118336081",
+                            "mod": "0",
                             "turbo": "0",
-                            "user-id": "6",
-                            "user-type": ""
+                            "returning-chatter": "0",
+                            "first-msg": "0",
+                            "user-type": "",
+                            "emotes": "",
+                            "flags": "",
+                            "reply-parent-display-name": "NewChatter",
+                            "reply-parent-user-login": "newchatter",
+                            "reply-parent-user-id": "7",
+                            "reply-parent-msg-id": "7-002",
+                            "reply-parent-msg-body": "haha,\\si'm\\sinvincible!",
+                            "reply-thread-parent-display-name": "NewChatter",
+                            "reply-thread-parent-user-login": "newchatter",
+                            "reply-thread-parent-user-id": "7",
+                            "reply-thread-parent-msg-id": "7-002"
                         },
                         "nick": "sonnelia",
-                        "userId": "6",
                         "displayName": "Sonnelia",
+                        "userId": "6",
+                        "msgId": "6-003",
                         "displayColor": "#9d95ac",
+                        "text": "@NewChatter are you sure?",
+                        "isAction": false,
                         "badges": [
                             {
                                 "type": "broadcaster",
@@ -783,9 +772,6 @@ window.addEventListener("onEventReceived", obj => {
                                 "description": "Verified"
                             }
                         ],
-                        "channel": channelName,
-                        "text": "@NewChatter are you sure?",
-                        "isAction": false,
                         "emotes": [
                             {
                                 "animated": false,
@@ -802,128 +788,126 @@ window.addEventListener("onEventReceived", obj => {
                                     "4": "https://cdn.7tv.app/emote/618cc5a217e4d50afc0cf377/4x.webp"
                                 }
                             }
-                        ],
-                        "msgId": "6a7cf06f-4a54-4437-9742-5c4036b90c3f"
-                    },}
-                }
-            });
-
-            let emulated4 = new CustomEvent("onEventReceived", {
-                detail: {
-                    "listener": "delete-message",
-                    "event": {
-                        "msgId": "514ad498-1139-4002-a52d-700cf099d011"
+                        ]
                     }
                 }
-            });
+            }
+        });
 
-            let emulated5 = new CustomEvent("onEventReceived", {
-                detail: {
-                    "listener": "message",
-                    "event": {
-                        "service": "twitch",
-                        "data": {
-                            "time": Date.now(),
-                            "tags": {
-                                "badge-info": "",
-                                "badges": "",
-                                "color": "#daa520",
-                                "display-name": "NewChatter",
-                                "emotes": "",
-                                "first-msg": "0",
-                                "flags": "",
-                                "id": "514ad498-1139-4002-a52d-700cf099d015",
-                                "mod": "0",
-                                "returning-chatter": "0",
-                                "room-id": "63065903",
-                                "subscriber": "0",
-                                "tmi-sent-ts": "1711108669423",
-                                "turbo": "0",
-                                "user-id": "7",
-                                "user-type": ""
-                            },
-                            "nick": "newchatter",
-                            "userId": "7",
-                            "displayName": "NewChatter",
-                            "displayColor": "#daa520",
-                            "badges": [],
-                            "channel": channelName,
-                            "text": "*more bad words*",
-                            "isAction": false,
-                            "emotes": [],
-                            "msgId": "514ad498-1139-4002-a52d-700cf099d011"
+        let emulated4 = new CustomEvent("onEventReceived", {
+            detail: {
+                "listener": "delete-message",
+                "event": {
+                    "msgId": "7-001"
+                }
+            }
+        });
+
+        let emulated5 = new CustomEvent("onEventReceived", {
+            detail: {
+                "listener": "message",
+                "event": {
+                    "service": "twitch",
+                    "data": {
+                        "time": Date.now(),
+                        "channel": channelName,
+                        "tags": {
+                            "room-id": "000",
+                            "display-name": "NewChatter",
+                            "user-id": "7",
+                            "id": "7-003",
+                            "color": "#daa520",
+                            "badge-info": "",
+                            "badges": "",
+                            "subscriber": "0",
+                            "mod": "0",
+                            "turbo": "0",
+                            "returning-chatter": "0",
+                            "first-msg": "0",
+                            "user-type": "",
+                            "emotes": "",
+                            "flags": ""
                         },
-                    }
-                }
-            });
-
-            let emulated6 = new CustomEvent("onEventReceived", {
-                detail: {
-                    "listener": "message",
-                    "event": {
-                        "service": "twitch",
-                        "data": {
-                            "time": Date.now(),
-                            "tags": {
-                                "badge-info": "subscriber/14",
-                                "badges": "broadcaster/1,subscriber/0,partner/1",
-                                "color": "#9d95ac",
-                                "display-name": "Sonnelia",
-                                "emotes": "",
-                                "first-msg": "0",
-                                "flags": "",
-                                "id": "54b903a4-1130-4c46-820b-f589b7102c4b",
-                                "mod": "0",
-                                "returning-chatter": "0",
-                                "room-id": "63065903",
-                                "subscriber": "1",
-                                "tmi-sent-ts": "1688895262653",
-                                "turbo": "0",
-                                "user-id": "6",
-                                "user-type": ""
-                            },
-                            "nick": "sonnelia",
-                            "userId": "6",
-                            "displayName": "Sonnelia",
-                            "displayColor": "#9d95ac",
-                            "badges": [
-                                {
-                                    "type": "broadcaster",
-                                    "version": "1",
-                                    "url": "https://static-cdn.jtvnw.net/badges/v1/5527c58c-fb7d-422d-b71b-f309dcb85cc1/3",
-                                    "description": "Broadcaster"
-                                },
-                                {
-                                    "type": "subscriber",
-                                    "version": "0",
-                                    "url": "https://static-cdn.jtvnw.net/badges/v1/5d9f2208-5dd8-11e7-8513-2ff4adfae661/3",
-                                    "description": "Subscriber"
-                                },
-                                {
-                                    "type": "partner",
-                                    "version": "1",
-                                    "url": "https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/3",
-                                    "description": "Verified"
-                                }
-                            ],
-                            "channel": channelName,
-                            "text": "ok i ban you :)",
-                            "isAction": false,
-                            "emotes": [],
-                            "msgId": "54b903a4-1130-4c46-820b-f589b7102c4b"
-                        },
-                    }
-                }
-            });
-
-            let emulated7 = new CustomEvent("onEventReceived", {
-                detail: {
-                    "listener": "delete-messages",
-                    "event": {
+                        "displayName": "NewChatter",
+                        "nick": "newchatter",
                         "userId": "7",
+                        "msgId": "7-003",
+                        "displayColor": "#daa520",
+                        "text": "*more bad words*",
+                        "isAction": false,
+                        "badges": [],
+                        "emotes": []
+                    },
+                }
+            }
+        });
+
+        let emulated6 = new CustomEvent("onEventReceived", {
+            detail: {
+                "listener": "message",
+                "event": {
+                    "service": "twitch",
+                    "data": {
+                        "time": Date.now(),
+                        "channel": channelName,
+                        "tags": {
+                            "room-id": "000",
+                            "display-name": "Sonnelia",
+                            "user-id": "6",
+                            "id": "6-004",
+                            "color": "#9d95ac",
+                            "badge-info": "subscriber/14",
+                            "badges": "broadcaster/1,subscriber/0,partner/1",
+                            "subscriber": "1",
+                            "mod": "0",
+                            "turbo": "0",
+                            "returning-chatter": "0",
+                            "first-msg": "0",
+                            "user-type": "",
+                            "emotes": "",
+                            "flags": ""
+                        },
+                        "displayName": "Sonnelia",
+                        "nick": "sonnelia",
+                        "userId": "6",
+                        "msgId": "6-004",
+                        "displayColor": "#9d95ac",
+                        "text": "ok i ban you :)",
+                        "isAction": false,
+                        "badges": [
+                            {
+                                "type": "broadcaster",
+                                "version": "1",
+                                "url": "https://static-cdn.jtvnw.net/badges/v1/5527c58c-fb7d-422d-b71b-f309dcb85cc1/3",
+                                "description": "Broadcaster"
+                            },
+                            {
+                                "type": "subscriber",
+                                "version": "0",
+                                "url": "https://static-cdn.jtvnw.net/badges/v1/5d9f2208-5dd8-11e7-8513-2ff4adfae661/3",
+                                "description": "Subscriber"
+                            },
+                            {
+                                "type": "partner",
+                                "version": "1",
+                                "url": "https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/3",
+                                "description": "Verified"
+                            }
+                        ],
+                        "emotes": []
                     }
                 }
-            });
+            }
+        });
+
+        let emulated7 = new CustomEvent("onEventReceived", {
+            detail: {
+                "listener": "delete-messages",
+                "event": {
+                    "userId": "7",
+                }
+            }
+        });
 
             let events = [emulated, emulated2, emulated3, emulated4, emulated5, emulated6, emulated7];
 
@@ -942,37 +926,40 @@ window.addEventListener("onEventReceived", obj => {
                         "service": "twitch",
                         "data": {
                             "time": Date.now(),
+                            "channel": channelName,
                             "tags": {
+                                "room-id": "000",
+                                "display-name": "Nightbot",
+                                "user-id": "8",
+                                "id": "8-001",
+                                "color": "#7c7ce1",
                                 "badge-info": "subscriber/14",
                                 "badges": "moderator/1,subscriber/0,partner/1",
-                                "color": "#7c7ce1",
-                                "display-name": "Nightbot",
-                                "emotes": "",
-                                "first-msg": "0",
-                                "flags": "",
-                                "id": "314588ea-eb54-4047-bdd9-7d2f6e3bbd68",
+                                "subscriber": "1",
                                 "mod": "1",
-                                "returning-chatter": "0",
-                                "room-id": "63065903",
-                                "subscriber": "0",
-                                "tmi-sent-ts": "1688897514912",
                                 "turbo": "0",
-                                "user-id": "8",
+                                "returning-chatter": "0",
+                                "first-msg": "0",
                                 "user-type": "mod",
+                                "emotes": "",
+                                "flags": "",
                                 "reply-parent-display-name": "Nightbot",
                                 "reply-parent-user-login": "nightbot",
-                                "reply-parent-msg-body": "──────▄▌▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌\\s───▄▄██▌█\\sBEEP\\sBEEP\\s\\s⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\\s▄▄▄▌▐██▌█\\s-43\\sLP\\sDELIVERY\\s███████▌█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌\\s▀(⊙)▀▀▀▀▀▀▀(⊙)(⊙)▀▀▀▀▀▀▀▀▀▀(⊙)▀▀",
-                                "reply-parent-msg-id": "cb696381-9751-4985-a898-5c28d69ab3a2",
                                 "reply-parent-user-id": "8",
+                                "reply-parent-msg-id": "8-001",
+                                "reply-parent-msg-body": "──────▄▌▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌\\s───▄▄██▌█\\sBEEP\\sBEEP\\s\\s⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\\s▄▄▄▌▐██▌█\\s-43\\sLP\\sDELIVERY\\s███████▌█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌\\s▀(⊙)▀▀▀▀▀▀▀(⊙)(⊙)▀▀▀▀▀▀▀▀▀▀(⊙)▀▀",
                                 "reply-thread-parent-display-name": "Nightbot",
                                 "reply-thread-parent-user-login": "nightbot",
-                                "reply-thread-parent-msg-id": "cb696381-9751-4985-a898-5c28d69ab3a2",
-                                "reply-thread-parent-user-id": "8"
+                                "reply-thread-parent-user-id": "8",
+                                "reply-thread-parent-msg-id": "8-001"
                             },
+                            "displayName": "Nightbot",
                             "nick": "nightbot",
                             "userId": "8",
-                            "displayName": "Nightbot",
+                            "msgId": "8-001",
                             "displayColor": "#7c7ce1",
+                            "text": " ──────▄▌▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌ ───▄▄██▌█ BEEP BEEP ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ▄▄▄▌▐██▌█ -44 LP DELIVERY ███████▌█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌ ▀(⊙)▀▀▀▀▀▀▀(⊙)(⊙)▀▀▀▀▀▀▀▀▀▀(⊙)▀▀",
+                            "isAction": true,
                             "badges": [
                                 {
                                     "type": "moderator",
@@ -993,12 +980,8 @@ window.addEventListener("onEventReceived", obj => {
                                     "description": "Verified"
                                 }
                             ],
-                            "channel": channelName,
-                            "text": " ──────▄▌▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌ ───▄▄██▌█ BEEP BEEP ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ▄▄▄▌▐██▌█ -44 LP DELIVERY ███████▌█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌ ▀(⊙)▀▀▀▀▀▀▀(⊙)(⊙)▀▀▀▀▀▀▀▀▀▀(⊙)▀▀",
-                            "isAction": true,
-                            "emotes": [],
-                            "msgId": "314588ea-eb54-4047-bdd9-7d2f6e3bbd68"
-                        },
+                            "emotes": []
+                        }
                     }
                 }
             });
