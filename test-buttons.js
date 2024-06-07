@@ -914,7 +914,7 @@ window.addEventListener("onEventReceived", obj => {
             for (let i = 0; i < events.length; i++) {
                 setTimeout(() => {
                     window.dispatchEvent(events[i]);
-                }, 1000 * i);
+                }, 1500 * i);
             }
         }
         
