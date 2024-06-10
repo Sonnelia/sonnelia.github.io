@@ -256,65 +256,65 @@ window.addEventListener("onEventReceived", obj => {
         }
         
         if (obj.detail.event.field === "broadcasterMessage") {
-                let emulated = new CustomEvent("onEventReceived", {
-                    detail: {
-                        "listener": "message",
-                        "event": {
-                            "service": "twitch",
-                            "data": {
-                                "time": Date.now(),
-                                "channel": channelName,
-                                "tags": {
-                                    "room-id": "000",
-                                    "display-name": "Sonnelia",
-                                    "user-id": "6",
-                                    "id": "6-001",
-                                    "color": "#9d95ac",
-                                    "badge-info": "subscriber/14",
-                                    "badges": "broadcaster/1,subscriber/0,partner/1",
-                                    "subscriber": "1",
-                                    "mod": "0",
-                                    "turbo": "0",
-                                    "returning-chatter": "0",
-                                    "first-msg": "0",
-                                    "user-type": "",
-                                    "emotes": "",
-                                    "flags": ""
+            let emulated = new CustomEvent("onEventReceived", {
+                detail: {
+                    "listener": "message",
+                    "event": {
+                        "service": "twitch",
+                        "data": {
+                            "time": Date.now(),
+                            "channel": channelName,
+                            "tags": {
+                                "room-id": "000",
+                                "display-name": "Sonnelia",
+                                "user-id": "6",
+                                "id": "6-001",
+                                "color": "#9d95ac",
+                                "badge-info": "subscriber/14",
+                                "badges": "broadcaster/1,subscriber/0,partner/1",
+                                "subscriber": "1",
+                                "mod": "0",
+                                "turbo": "0",
+                                "returning-chatter": "0",
+                                "first-msg": "0",
+                                "user-type": "",
+                                "emotes": "",
+                                "flags": ""
+                            },
+                            "displayName": "Sonnelia",
+                            "nick": "sonnelia",
+                            "userId": "6",
+                            "msgId": "6-001",
+                            "displayColor": "#9d95ac",
+                            "text": "This is a broadcaster message!",
+                            "isAction": false,
+                            "badges": [
+                                {
+                                    "type": "broadcaster",
+                                    "version": "1",
+                                    "url": "https://static-cdn.jtvnw.net/badges/v1/5527c58c-fb7d-422d-b71b-f309dcb85cc1/3",
+                                    "description": "Broadcaster"
                                 },
-                                "displayName": "Sonnelia",
-                                "nick": "sonnelia",
-                                "userId": "6",
-                                "msgId": "6-001",
-                                "displayColor": "#9d95ac",
-                                "text": "This is a broadcaster message!",
-                                "isAction": false,
-                                "badges": [
-                                    {
-                                        "type": "broadcaster",
-                                        "version": "1",
-                                        "url": "https://static-cdn.jtvnw.net/badges/v1/5527c58c-fb7d-422d-b71b-f309dcb85cc1/3",
-                                        "description": "Broadcaster"
-                                    },
-                                    {
-                                        "type": "subscriber",
-                                        "version": "0",
-                                        "url": "https://static-cdn.jtvnw.net/badges/v1/5d9f2208-5dd8-11e7-8513-2ff4adfae661/3",
-                                        "description": "Subscriber"
-                                    },
-                                    {
-                                        "type": "partner",
-                                        "version": "1",
-                                        "url": "https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/3",
-                                        "description": "Verified"
-                                    }
-                                ],
-                                "emotes": []
-                            }
+                                {
+                                    "type": "subscriber",
+                                    "version": "0",
+                                    "url": "https://static-cdn.jtvnw.net/badges/v1/5d9f2208-5dd8-11e7-8513-2ff4adfae661/3",
+                                    "description": "Subscriber"
+                                },
+                                {
+                                    "type": "partner",
+                                    "version": "1",
+                                    "url": "https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/3",
+                                    "description": "Verified"
+                                }
+                            ],
+                            "emotes": []
                         }
                     }
-                });
-                window.dispatchEvent(emulated);
-            } 
+                }
+            });
+            window.dispatchEvent(emulated);
+        } 
 
         if (obj.detail.event.field === "actionMessage") {
             let emulated = new CustomEvent("onEventReceived", {
@@ -1127,6 +1127,67 @@ window.addEventListener("onEventReceived", obj => {
             });
             window.dispatchEvent(emulated);
         }
+        
+        if (obj.detail.event.field === "updateMessage") {
+            let emulated = new CustomEvent("onEventReceived", {
+                detail: {
+                    "listener": "update-message",
+                    "event": {
+                        "service": "twitch",
+                        "data": {
+                            "time": Date.now(),
+                            "channel": channelName,
+                            "tags": {
+                                "room-id": "000",
+                                "display-name": "Sonnelia",
+                                "user-id": "6",
+                                "id": "6-005",
+                                "color": "#9d95ac",
+                                "badge-info": "subscriber/14",
+                                "badges": "broadcaster/1,subscriber/0,partner/1",
+                                "subscriber": "1",
+                                "mod": "0",
+                                "turbo": "0",
+                                "returning-chatter": "0",
+                                "first-msg": "0",
+                                "user-type": "",
+                                "emotes": "",
+                                "flags": ""
+                            },
+                            "displayName": "Sonnelia",
+                            "nick": "sonnelia",
+                            "userId": "6",
+                            "msgId": "6-005",
+                            "displayColor": "#9d95ac",
+                            "text": "Update available!",
+                            "isAction": false,
+                            "badges": [
+                                {
+                                    "type": "broadcaster",
+                                    "version": "1",
+                                    "url": "https://static-cdn.jtvnw.net/badges/v1/5527c58c-fb7d-422d-b71b-f309dcb85cc1/3",
+                                    "description": "Broadcaster"
+                                },
+                                {
+                                    "type": "subscriber",
+                                    "version": "0",
+                                    "url": "https://static-cdn.jtvnw.net/badges/v1/5d9f2208-5dd8-11e7-8513-2ff4adfae661/3",
+                                    "description": "Subscriber"
+                                },
+                                {
+                                    "type": "partner",
+                                    "version": "1",
+                                    "url": "https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/3",
+                                    "description": "Verified"
+                                }
+                            ],
+                            "emotes": []
+                        }
+                    }
+                }
+            });
+            window.dispatchEvent(emulated);
+        }
     
         if (obj.detail.event.field === "updateAlert") {
             let emulated = new CustomEvent("onEventReceived", {
@@ -1135,7 +1196,7 @@ window.addEventListener("onEventReceived", obj => {
                     "event": {
                         "displayName": "Sonnelia",
                         "name": "sonnelia",
-                        "message": "Update available :3"
+                        "message": "Update available!"
                     },
                 }
             });
