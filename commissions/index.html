@@ -10,129 +10,122 @@
   </head>
   <body>
 
-    <div class="cursor"></div>
+    <div id="cursor"></div>
 
     <div class="noise"></div>
 
-    <div class="borders">
-      <div class="border-left"></div>
-      <div class="border-top"></div>
-      <div class="border-right"></div>
-      <div class="border-bottom"></div>
+    <div id="borders">
+      <div id="border-left"></div>
+      <div id="border-right"></div>
+      <div id="border-bottom"></div>
     </div>
 
     <header>
-      <nav class="nav-commissions">
-        <a href="/">portfolio</a>
-      </nav>
+        
+      <div class="noise" id="noise-cover"></div>
 
       <nav class="nav-main">
-        <a id="start">start</a>
-        <a id="prices">prices</a>
-        <a id="tos">tos</a>
+        <span class="nav-front">
+          <svg><path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14ZM7 14C4.65279 14 2.75 12.0972 2.75 9.75C2.75 7.40279 4.65279 5.5 7 5.5C9.34721 5.5 11.25 7.40279 11.25 9.75C11.25 12.0972 9.34721 14 7 14Z"/></svg>
+          <a id="menu">menu</a>
+        </span>
+
+        <span class="nav-links">
+          <a href="/">portoflio</a>
+          <span class="separator"></span>
+          <a href="/commissions" class="active">commissions</a>
+          <span class="separator"></span>
+          <a href="/terms-of-service">tos</a>
+        </span>
+      </nav>
+
+      <nav class="nav-contents">
+        <a id="nav-start" class="active">start<svg><circle cx="7" cy="7" r="6.5" fill="none"/></svg></a>
+        <a id="nav-illustration">illustration<svg><path d="M14 7C14 3.13401 10.866 -2.73984e-07 7 -6.11959e-07C3.13401 -9.49935e-07 3.37976e-07 3.13401 0 7L14 7Z" stroke="none"/></svg></a>
+        <a id="nav-design">design<svg><circle cx="7" cy="7" r="7" stroke="none"/></svg></a>
+      </nav>
+
+      <nav class="nav-progress">
+        <div class="progress-lines" id="start-line">
+          <p>start</p>
+          <div class="progress-line"></div>
+        </div>
+
+        <div class="progress-lines" id="illustration-line">
+          <p>illustration</p>
+          <div class="progress-line"></div>
+        </div>
+
+        <div class="progress-lines" id="design-line">
+          <p>design</p>
+          <div class="progress-line"></div>
+        </div>
       </nav>
     </header>
 
+
+
     <main>
-      <div class="start">
+      <div class="section" id="start">
 
-        <div class="general-info">
-
-          <table class="language">
-            <tr>
-              <th>Choose language:</th>
-            </tr>
-            <tr>
-              <td>
-                <a id="english" class="lan active">english</a>
-                <a id="polish" class="lan">polski</a>
-              </td>
-            </tr>
-          </table>
-
-          <div class="rules">
-
-            <p>General rules</p>
-
-            <dl>
-              <dd>By commissioning, the client agrees to my terms of service. Please read carefully before ordering.</dd>
-              <dd>Listed prices are subject to possible change in the future and are for personal use commissions. Commercial pieces will cost more, depending on the scale of the project.</dd>
-              <dd>The final price may increase depending on complexity.</dd>
-              <dd>I have the right to reject any order for any reason. I will not draw gore, violence, explicit sexual content, fetishes.</dd>
-              <dd>Usage of my art for anything NFT or AI related is strictly prohibited.</dd>
-              <dd>When ordering, written descriptions will not be enough, so please include references. They don&rsquo;t have to be pretty, even ms paint mouse drawing or collage of images can be helpful.</dd>
-              <dd>Contact me if you want to order something that is not listed here, but presented in my portfolio (like interiors, stream assets, design, web development).</dd>
-            </dl>
-
-          </div>
-
-          <div class="process">
-    
-            <p>Order process</p>
-            
-            <ul>
-              <li id="one">Contact via <a href="mailto:glitchedmoons@gmail.com">email</a>, <a href="https://discord.com/app" target="_blank" rel="noopener noreferrer">discord</a> or <a href="https://artistree.io/sonnelia" target="_blank" rel="noopener noreferrer">artistree</a> with basic details.</li>
-              <li id="two">Discussion of commission contents, estimated time and quote.</li>
-              <li id="three">Invoice sent through email (due within 14 days).</li>
-              <li id="four">Start of commission after payment.</li>
-              <li id="five">Update and revision process.</li>
-              <li id="six">Finished pieces sent through email.</li>
-            </ul>
-
-          </div>
-
-        </div>
-
-        <p id="invite"></p>
+        <p id="commissions-intro">Welcome, thank you for your interest!<br>For now commissions are taken on one at a time.<br>Please read my <a href="terms-of-service">terms of service</a> before contacting me.</p>
 
       </div>
 
-      <div class="prices">
-        <div id="prices-divider" class="divider"></div>
+
+
+      <div class="section commissions" id="illustration">
+        <div id="illustration-divider" class="divider"></div>
+
+        <p class="prices-intro">Below are listed base price ranges for personal use drawings and illustrations.<br>Sketches are rough, two other types are cleaned up. Shaded has simpler coloring style than painted.<br>When ordering please include as much details about your request as possible and add necessary references.</p>
+
+        <div id="prices-illustration-extra">
+
+          <p>Final price may increase depending on complexity and additions (+% of base price):</p>
+  
+          <table>
+            <tbody>
+              <tr id="prices-illustration-extra-left">
+                <td>+0-25%</td>
+                <td>+75%</td>
+                <td>+25-50% </td>
+                <td>+10-50%</td>
+                <td>+10-100%</td>
+              </tr>
+              <tr id="prices-illustration-extra-right">
+                <td>design complexity,</td>
+                <td>additional characters,</td>
+                <td>animals/creatures,</td>
+                <td>other props,</td>
+                <td>background.</td>
+              </tr>
+            </tbody>
+          </table>
         
-        <table id="commissions" class="price-list">
+        </div>
+        
+        <table id="prices-illustration">
           <tbody>
-            <tr class="sketch">
-              <th>colored sketch</th>
-              <td class="portrait">$20</td>
-              <td class="half-body">$25</td>
-              <td class="full-body">$30</td>
+            <tr>
+              <th>sketch<br>$20 - $30</th>
               <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/slumber.png" alt="celestine concept">
+                <img class="image-preview" src="../img/commissions/rikku.png" alt="rikku fanart">
               </td>
               <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/goatperson.png" alt="fanart for my friend">
+                <img class="image-preview" src="../img/commissions/short-hair.png" alt="celestine in short hair">
               </td>
             </tr>
-            <tr class="flats">
-              <th>flats</th>
-              <td class="portrait">$45</td>
-              <td class="half-body">$60</td>
-              <td class="full-body">$75</td>
+            <tr>
+              <th>shaded<br>$45 - $85</th>
               <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/salvia_concept2.png" alt="salvia concept">
-              </td>
-              <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/bonk.png" alt="strix bonk">
-              </td>
-            </tr>
-            <tr class="cell">
-              <th>cell shaded</th>
-              <td class="portrait">$55</td>
-              <td class="half-body">$70</td>
-              <td class="full-body">$85</td>
-              <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/love.png" alt="celestine">
+                <img class="image-preview" src="../img/commissions/desk.png" alt="celestine on desk">
               </td>
               <td class="commission-preview">
                 <img class="image-preview" src="../img/commissions/starzy_dopiero_wstali.png" alt="me and strix">
               </td>
             </tr>
-            <tr class="painted">
-              <th>painted</th>
-              <td class="portrait">$75</td>
-              <td class="half-body">$100</td>
-              <td class="full-body">$125</td>
+            <tr>
+              <th>painted<br>$75 - $125</th>
               <td class="commission-preview">
                 <img class="image-preview" src="../img/commissions/soaked.png" alt="celestine">
               </td>
@@ -141,97 +134,160 @@
               </td>
             </tr>
           </tbody>
-          
+        </table>
+
+        <div id="prices-emotes">
+          <p>I also offer emotes for $15 each, personal or semi-commercial use, not animated.</p>
+          <div class="images-inline">
+            <img class="image-preview" src="../img/commissions/emotes.png" alt="strix emotes">
+          </div>
+        </div>
+
+        <div class="contact">
+          <p>Ready to order? Contact me here:</p>
+
+          <div class="links">
+            <a href="https://artistree.io/sonnelia" target="_blank" rel="noopener noreferrer">artistree</a>
+            <span class="separator"></span>
+            <a class="mail">mail</a>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="section commissions" id="design">
+        <div id="design-divider" class="divider"></div>
+
+        <p class="prices-intro">Here are listed base prices and features for custom stream widgets, design and/or coding. Semi commercial license.<br><br>All additional features and variations increase the final price (some add % of base price, most add a constant value of $2.5 per each).<br>Upon ordering you will be provided with a checklist of features you want to have included.</p>
+
+        <table id="prices-design">
           <tbody>
-            <tr class="emotes">
-              <th>emotes</th>
-              <td>$15 each</td>
+            <tr>
+              <th>chat<br>design starts at $50<br>coding starts at $60</th>
+              <td>
+                <dl>
+                  <dt>Features:</dt>
+                  <dd>role styling,</dd>
+                  <dd>special message variations (ex. highlighted),</dd>
+                  <dd>custom badges or decorations,</dd>
+                  <dd>pronouns next to username,</dd>
+                  <dd>large emotes for emote only messages,</dd>
+                  <dd>“replying to” above a message,</dd>
+                  <dd>connected messages from same user,</dd>
+                  <dd>messages fade over time,</dd>
+                  <dd>in-chat alerts,</dd>
+                  <dd>animations.</dd>
+
+                  <dt>Additional chat styles:</dt>
+                  <dd>+10% light/dark mode or other color changing,</dd>
+                  <dd>+50% horizontal/vertical orientation,</dd>
+                  <dd>+50% regular/compact/minimal version.</dd>
+
+                  <dt>Functions included by default:</dt>
+                  <dd>messages deleted on twitch also disappear in widget,</dd>
+                  <dd>ignored usernames text field (like chat bots),</dd>
+                  <dd>ignore chat commands toggle (starting with “!”).</dd>
+                </dl>
+              </td>
+            </tr>
+            <tr class="design-images">
               <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/owo.png" alt="owo strix emote">
+                <img class="image-preview" src="../img/commissions/strix-chat-widget.png" alt="normal and compact versions of chat for strix">
               </td>
               <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/like.png" alt="like strix emote">
+                <img class="image-preview" src="../img/commissions/kix-chat-widget.png" alt="chat for kitsune">
               </td>
             </tr>
           </tbody>
           
           <tbody>
-            <tr class="extra">
-              <th>additional costs</th>
-              <td>+75% additional characters</td>
-              <td>+25-50% animals/creatures</td>
-              <td>+10-50% props</td>
-              <td>+10-100% background</td>
-              <td>+0-25% complicated design</td>
+            <tr>
+              <th>alert<br>design starts at $20<br>coding starts at $30</th>
+              <td>
+                <dl>
+                  <dt>Features:</dt>
+                  <dd>alert styling,</dd>
+                  <dd>custom messages (ex. "x just subscribed!"),</dd>
+                  <dd>animations.</dd>
+
+                  <dt>Functions included by default:</dt>
+                  <dd>show/hide toggles for each alert type,</dd>
+                  <dd>minimum amount text field for alert to show up,</dd>
+                  <dd>alert sounds setup.</dd>
+                </dl>
+              </td>
+            </tr>
+            <tr class="design-images">
+              <td class="commission-preview">
+                <img class="image-preview" src="../img/commissions/strix-alert-widget.gif" alt="alert for strix">
+              </td>
+            </tr>
+          </tbody>
+
+          
+          <tbody>
+            <tr>
+              <th>goal<br>coming soon!</th>
+            </tr>
+            <tr class="design-images">
+            </tr>
+          </tbody>
+          
+          
+          <tbody id="design-info">
+            <tr>
+              <td>
+                <dl>
+                  <dt>Important information regarding widgets:</dt>
+                  <dd>Price includes half year support for future bug fixing and small tweaking updates.</dd>
+                  <dd>Price does not include big changes to design after agreement on final design and big changes to code after the project has finalized.</dd>
+                  <dd>Any widget functionality can be customized and mixed. You can propose features not listed here and I will try to implement them as long as it is possible via StreamElements.</dd>
+                  <dd>If you request specific animations I will try my hardest to satisfy your vision, even though I am not experienced in animation.</dd>
+                  <dd>All widgets are for twitch since I have not yet made anything for youtube. If you are willing to wait a bit more for a youtube or multistream version, feel free to contact me!</dd>
+                  <dd>Additionally, all widgets are for StreamElements only, because this platform has the most features and support for customizability. Though I am open to other similar tools!</dd>
+                  <dd>Custom widgets outside of the listed ones will be considered and priced separately, please contact me to discuss it!</dd>
+                </dl>
+              </td>
             </tr>
           </tbody>
         </table>
 
-      </div>
+        <div class="contact">
+          <p>Ready to order? Contact me here:</p>
 
-      <div class="tos">
-        <div id="tos-divider" class="divider"></div>
-
-        <div class="terms-of-service">
-          <p>Terms of Service</p>
-
-          <span>Not agreeing to the terms stated below results in contract termination. Breaking any of the rules under the copyrights section will cause the client to owe me penalties.</span>
-          
-          <dl>
-            <dt>Payment</dt>
-            <dd>I accept payment only via artistree or tipo.</dd>
-            <dd>Upfront payments only, due within 14 calendar days after an invoice had been received. Otherwise, the commission will be canceled.</dd>
-          </dl>
-          
-          <dl>
-            <dt>Cancellation and refund policy</dt>
-            <dd>I can voluntarily cancel the commission at any stage. The client then receives a refund based on progress and can request to receive the work as is.</dd>
-            <dd>The client can cancel and request a full refund on an order only when I have not started the commission yet.</dd>
-            <dd>The client cannot cancel the commission after work has begun.</dd>
-          </dl>
-          
-          <dl>
-            <dt>Updates and revisions</dt>
-            <dd>The client will be able to regularly preview the piece during the process and request changes on each stage of the drawing (sketch, lineart and colors, final).</dd>
-            <dd>To avoid complications with the finished piece, please request necessary corrections in early stages of the work.</dd>
-            <dd>Bigger changes may require an additional fee.</dd>
-          </dl>
-          
-          <dl>
-            <dt>Deadlines and delivery</dt>
-            <dd>The commission will take between 1 week to 2 months depending on complexity and my availability. I will inform the client if I require more time.</dd>
-            <dd>I will not work under pressure or a rushed deadline. When commissioning, the client agrees to my timings and cannot enforce differently.</dd>
-          </dl>
-          
-          <dl>
-            <dt>Copyright and usage</dt>
-            <dd>I, the artist, retain all copyrights over the commissioned artwork and reserve the right to use the commissioned artwork in portfolio, social media and such.</dd>
-            <dd>I do not allow my artwork to be used for training AI or selling NFTs.</dd>
-            <dd>The client is obliged to credit me when using the commissioned artwork.</dd>
-            <dd>The commissioned artwork is for personal use only unless a separate commercial use agreement has been made.</dd>
-            <dd>The client is not allowed to alter the commissioned artwork in any way without my consent, please contact me to discuss it.</dd>
-          </dl>
-          
-          <dl>
-            <dt>Commercial licence</dt>
-            <dd>Prints, merch, assets and anything for-profit will be categorized under commercial and will be priced accordingly, depending on scale. Please include the purpose of the commission when ordering.</dd>
-          </dl>
+          <div class="links">
+            <a href="https://artistree.io/sonnelia" target="_blank" rel="noopener noreferrer">artistree</a>
+            <span class="separator"></span>
+            <a class="mail">mail</a>
+          </div>
         </div>
+
+        <p class="copyrights">© 2024 Sonnelia. All rights reserved.</p>
 
       </div>
 
     </main>
     
+
+
     <div class="image-viewer">
+
+      <div class="noise" id="noise-viewer"></div>
+
       <nav class="nav-viewer">
-        <a class="viewer-close">x</a>
-        <span class="viewer-previous"><a>&lt;</a></span>
-        <span class="viewer-next"><a>&gt;</a></span>
+        <div class="viewer-menu">
+          <svg><path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14ZM7 14C4.65279 14 2.75 12.0972 2.75 9.75C2.75 7.40279 4.65279 5.5 7 5.5C9.34721 5.5 11.25 7.40279 11.25 9.75C11.25 12.0972 9.34721 14 7 14Z"/></svg>
+          <a class="viewer-close">close</a>
+        </div>
+        <span class="viewer-previous"><a><svg><path d="M7 0C3.134 0-0 3.134-0 7-0 10.866 3.134 14 7 14L7 0Z" stroke="none"/></svg></a></span>
+        <span class="viewer-next"><a><svg><path d="M0 14C3.866 14 7 10.866 7 7 7 3.134 3.866 0 0 0L0 14Z" stroke="none"/></svg></a></span>
       </nav>
       <div class="zoom">
         <img class="image-zoom">
       </div>
-      <p id="caution" class="copyrights">repost or reproduction prohibited</p>
+      <p class="caution">© Sonnelia. Repost or reproduction prohibited.</p>
     </div>
     
     <script src="../js/functions.js"></script>
