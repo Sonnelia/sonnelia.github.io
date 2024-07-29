@@ -195,7 +195,7 @@ if (viewer) {
   observer.observe(viewer, { attributes: true });
 }
 
-document.addEventListener('keyup', (e) => {  
+document.addEventListener('keyup', (e) => {
   if (isViewerOpen === true) {
     if (e.code === "ArrowLeft") {
       currentIndex = currentIndex - 1 < 0 ? images.length - 1 : currentIndex - 1;
@@ -209,9 +209,16 @@ document.addEventListener('keyup', (e) => {
       viewer.className = 'image-viewer';
       body.style.overflow = '';
     }
-}});
+  }
+});
 
 document.querySelector('.viewer-close') && document.querySelector('.viewer-close').addEventListener('click', () => {
+  viewer.className = 'image-viewer';
+  body.style.overflow = '';
+});
+
+document.getElementById('noise-viewer') && document.getElementById('noise-viewer').addEventListener('click', () => {
+  console.log('meow');
   viewer.className = 'image-viewer';
   body.style.overflow = '';
 });
@@ -225,12 +232,12 @@ function changeImage() {
   }, 350);
 };
 
-document.querySelector('.viewer-previous a') && document.querySelector('.viewer-previous a').addEventListener('click', () => {
+document.querySelector('.viewer-previous') && document.querySelector('.viewer-previous').addEventListener('click', () => {
   currentIndex = currentIndex - 1 < 0 ? images.length - 1 : currentIndex - 1;
   changeImage();
 });
 
-document.querySelector('.viewer-next a') && document.querySelector('.viewer-next a').addEventListener('click', () => {
+document.querySelector('.viewer-next') && document.querySelector('.viewer-next').addEventListener('click', () => {
   currentIndex = currentIndex + 1 >= images.length ? 0 : currentIndex + 1;
   changeImage();
 });
