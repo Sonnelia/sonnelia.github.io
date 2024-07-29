@@ -405,17 +405,13 @@ let en = document.getElementById('english'),
 
 en && en.addEventListener('click', () => {
   if (!en.classList.contains('active')) {
-    en.classList.add('active');
-    pl.classList.remove('active');
-    changeLanguage(en);
+    changeLanguage('en');
   }
 });
 
 pl && pl.addEventListener('click', () => {
   if (!pl.classList.contains('active')) {
-    pl.classList.add('active');
-    en.classList.remove('active');
-    changeLanguage(pl);
+    changeLanguage('pl');
   }
 });
 
@@ -426,12 +422,15 @@ let rulesp = document.querySelector('#rules p'),
     processp = document.querySelector('#process p'),
     process = document.querySelectorAll('#process li'),
     tosp = document.querySelector('#terms-of-service p'),
-    tosd = document.querySelectorAll('#terms-of-service dt'),
-    tos = document.querySelectorAll('#terms-of-service dd');
+    tosdt = document.querySelectorAll('#terms-of-service dt'),
+    tosdd = document.querySelectorAll('#terms-of-service dd');
 
 function changeLanguage(language) {
 
-  if (language = 'pl') {
+  if (language == 'pl') {
+    pl.classList.add('active');
+    en.classList.remove('active');
+
     fetch('https://sonnelia.github.io/tos-pl.txt')
     .then(response => {
       if (!response.ok) {
@@ -442,31 +441,30 @@ function changeLanguage(language) {
     .then(data => {
         let lines = data.split('\n').map(line => line.substring(2).replace(/( 〕| 〉)/g, ""));
 
-        rulesp.innerHTML = lines[4];
+        rulesp.innerText = lines[4];
         for (let i = 6; i <= 13; i++) {
-          rules[i - 6].innerHTML = lines[i];
+          rules[i - 6].innerText = lines[i];
         }
 
-        processp.innerHTML = lines[15];
+        processp.innerText = lines[15];
         for (let i = 17; i <= 22; i++) {
-          process[i - 17].innerHTML = lines[i];
+          process[i - 17].innerText = lines[i];
         }
 
-        tosp.innerHTML = lines[25];
-        let indices = [28, 33, 41, 46, 51, 56, 61, 68];
-        let empty = [32, 40, 45, 50, 55, 60, 67];
+        tosp.innerText = lines[25];
+        let indices = [27, 32, 40, 45, 50, 55, 60, 67];
         let j = 0;
         let k = 0;
-        for (let i = 28; i <= lines.length; i++) {
-          if (empty.includes(i)) {
+        for (let i = 27; i < lines.length; i++) {
+          if (lines[i] === "") {
             continue;
           }
           if (indices.includes(i)) {
-            tosd[j].innerHTML = lines[i];
+            tosdt[j].innerText = lines[i];
             j++;
           }
           else {
-            tos[k].innerHTML = lines[i];
+            tosdd[k].innerText = lines[i];
             k++;
           }
         }
@@ -475,7 +473,10 @@ function changeLanguage(language) {
         console.error('There has been a problem with your fetch operation:', error);
       });
   }
-  else if (language = 'en') {
+  else if (language == 'en') {
+    en.classList.add('active');
+    pl.classList.remove('active');
+
     fetch('https://sonnelia.github.io/tos-en.txt')
     .then(response => {
       if (!response.ok) {
@@ -486,31 +487,30 @@ function changeLanguage(language) {
     .then(data => {
         let lines = data.split('\n').map(line => line.substring(2).replace(/( 〕| 〉)/g, ""));
 
-        rulesp.innerHTML = lines[4];
+        rulesp.innerText = lines[4];
         for (let i = 6; i <= 13; i++) {
-          rules[i - 6].innerHTML = lines[i];
+          rules[i - 6].innerText = lines[i];
         }
 
-        processp.innerHTML = lines[15];
+        processp.innerText = lines[15];
         for (let i = 17; i <= 22; i++) {
-          process[i - 17].innerHTML = lines[i];
+          process[i - 17].innerText = lines[i];
         }
 
-        tosp.innerHTML = lines[25];
-        let indices = [28, 33, 41, 46, 51, 56, 61, 68];
-        let empty = [32, 40, 45, 50, 55, 60, 67];
+        tosp.innerText = lines[25];
+        let indices = [27, 32, 40, 45, 50, 55, 60, 67];
         let j = 0;
         let k = 0;
-        for (let i = 28; i <= lines.length; i++) {
-          if (empty.includes(i)) {
+        for (let i = 27; i < lines.length; i++) {
+          if (lines[i] === "") {
             continue;
           }
           if (indices.includes(i)) {
-            tosd[j].innerHTML = lines[i];
+            tosdt[j].innerText = lines[i];
             j++;
           }
           else {
-            tos[k].innerHTML = lines[i];
+            tosdd[k].innerText = lines[i];
             k++;
           }
         }
