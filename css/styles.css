@@ -1096,6 +1096,6 @@ li#six::before {
 
 @media only screen and (max-height: 850px) {
   #about img {
-    max-height: calc(100vh - 200px);
+    max-height: calc(100vh - 250px);
   }
 }
