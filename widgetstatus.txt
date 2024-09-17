@@ -1,6 +1,6 @@
 # LATEST WIDGET VERSIONS BY MONTH/YEAR
 template-chat=6/24
-strix-chat=6/24
-strix-alert=4/24
+strix-chat=9/24
+strix-alert=9/24
 strix-goal=8/24
 kix-chat=6/24
