@@ -4,4 +4,4 @@ strix-chat=9/24
 strix-alert=9/24
 strix-goal=8/24
 kix-chat=6/24
-luciela-subathon=06/11/24
+luciela-subathon=09/11/24
