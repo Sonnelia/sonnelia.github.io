@@ -3,5 +3,6 @@ template-chat=6/24
 strix-chat=9/24
 strix-alert=9/24
 strix-goal=8/24
+strix-megathon=23/11/24
 kix-chat=6/24
-luciela-subathon=20/11/24
+luciela-subathon=21/11/24
