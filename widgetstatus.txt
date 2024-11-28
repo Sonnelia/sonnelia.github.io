@@ -6,3 +6,4 @@ strix-goal=8/24
 strix-megathon=23/11/24
 kix-chat=6/24
 luciela-subathon=21/11/24
+leolione-chat=28/11/24

@@ -1008,8 +1008,8 @@ window.addEventListener("onEventReceived", obj => {
                 detail: {
                     'listener': "subscriber-latest",
                     "event": {
-                        "amount": "prime",
-                        "tier": "1000",
+                        "amount": "1",
+                        "tier": "prime",
                         "displayName": "Subscriber",
                         "name": "subscriber",
                         "message": "Hi I'm new here :D"
