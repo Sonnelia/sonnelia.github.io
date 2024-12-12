@@ -462,7 +462,7 @@ function changeLanguage(language) {
         let indices = [27, 32, 40, 45, 50, 55, 60, 67];
         let j = 0;
         let k = 0;
-        for (let i = 27; i < lines.length - 1; i++) {
+        for (let i = 27; i < lines.length; i++) {
           if (lines[i] === "") {
             continue;
           }
@@ -508,7 +508,7 @@ function changeLanguage(language) {
         let indices = [27, 32, 40, 45, 50, 55, 60, 67];
         let j = 0;
         let k = 0;
-        for (let i = 27; i < lines.length - 1; i++) {
+        for (let i = 27; i < lines.length; i++) {
           if (lines[i] === "") {
             continue;
           }
