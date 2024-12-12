@@ -449,12 +449,12 @@ function changeLanguage(language) {
         let lines = data.split('\n').map(line => line.substring(2).replace(/( 〕| 〉)/g, ""));
 
         rulesp.innerText = lines[4];
-        for (let i = 6; i <= 13; i++) {
+        for (let i = 6; i < 13; i++) {
           rules[i - 6].innerText = lines[i];
         }
 
         processp.innerText = lines[15];
-        for (let i = 17; i <= 22; i++) {
+        for (let i = 17; i < 23; i++) {
           process[i - 17].innerText = lines[i];
         }
 
@@ -462,7 +462,7 @@ function changeLanguage(language) {
         let indices = [27, 32, 40, 45, 50, 55, 60, 67];
         let j = 0;
         let k = 0;
-        for (let i = 27; i < lines.length; i++) {
+        for (let i = 27; i < lines.length - 1; i++) {
           if (lines[i] === "") {
             continue;
           }
@@ -495,12 +495,12 @@ function changeLanguage(language) {
         let lines = data.split('\n').map(line => line.substring(2).replace(/( 〕| 〉)/g, ""));
 
         rulesp.innerText = lines[4];
-        for (let i = 6; i <= 13; i++) {
+        for (let i = 6; i < 13; i++) {
           rules[i - 6].innerText = lines[i];
         }
 
         processp.innerText = lines[15];
-        for (let i = 17; i <= 22; i++) {
+        for (let i = 17; i < 23; i++) {
           process[i - 17].innerText = lines[i];
         }
 
@@ -508,7 +508,7 @@ function changeLanguage(language) {
         let indices = [27, 32, 40, 45, 50, 55, 60, 67];
         let j = 0;
         let k = 0;
-        for (let i = 27; i < lines.length; i++) {
+        for (let i = 27; i < lines.length - 1; i++) {
           if (lines[i] === "") {
             continue;
           }
