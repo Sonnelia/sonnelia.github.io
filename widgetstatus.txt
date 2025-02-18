@@ -11,3 +11,4 @@ leolione-chat=29/11/24
 yaiyahn-chat=08/01/25
 seol-memoxx-clock=12/02/25
 seol-memoxx-chat=12/02/25
+taiga-chat=18/02/25
