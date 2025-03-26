@@ -1,4 +1,4 @@
-# LATEST WIDGET VERSIONS BY MONTH/YEAR
+# LATEST WIDGET VERSIONS BY DAY/MONTH/YEAR
 template-chat=6/24
 strix-chat=9/24
 strix-alert=9/24
@@ -12,3 +12,6 @@ yaiyahn-chat=08/01/25
 seol-memoxx-clock=12/02/25
 seol-memoxx-chat=12/02/25
 taiga-chat=18/02/25
+seol-nightglow-chat=26/03/25
+seol-nightglow-icon=26/03/25
+seol-nightglow-goal=26/03/25
