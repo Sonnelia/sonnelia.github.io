@@ -17,4 +17,4 @@ seol-nightglow-icon=07/04/25
 seol-nightglow-goal=08/04/25
 seol-nightglow-chat-youtube=07/05/25
 egistential-chat=05/05/25
-perindigo-popup=10/06/25
+perindigo-popup=12/06/25
