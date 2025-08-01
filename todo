@@ -1,21 +1,59 @@
---tos on its own page
---menus at the top 
---add design commissions
---update 404
---update images (downscale, put watermarks, add new)
---css
+ + tos on its own page
+ + menus at the top 
+ + add design commissions
+ + update 404
+ + update images (downscale, put watermarks, add new)
+ + css
 
---js dividers
+ + js dividers
 
-menu when changing innertext make it scramble?
+ - menu when changing innertext make it scramble?
 
---rework class structure
+ + rework class structure
 
---links?
+ + links?
 
-migoczące gwiazdy?
+ - migoczące gwiazdy?
 
---copy mail to clipboard, else mailto:
+ + copy mail to clipboard, else mailto:
+
+ + mobile when previewing images back doesnt go back to the previous site, but closes images
 
 
-mobile when previewing images back doesnt go back to the previous site, but closes images
+
+WEBSITE 3.0 TODO
+
+template
+  - generated stars with depth and reactivity to mouse
+  - depth of stars - some move less than others while scrolling
+  - occasional shooting stars
+  + footer
+  + blurring + darkening overlay behind top nav
+  + image preview redesign
+  + change favicon?
+  + add logo to footer
+  + borders (animate based on scroll? change length od each line, smooth transition)
+
+tos
+  + redirect to /commissions#tos
+  + update tos .txt
+  + tos url needs to exist so that it doesn't redirect to 404, add some text there like 'moved to /commissions'
+  + tos instead of fetch, copy and paste string?
+
+home
+  + move about section to intro, delete image
+  + separate design and illustration to different sections, first design
+  + add descriptions to images, remember to credit if designs not mine
+  - glaze images
+
+commissions
+  + delete illustration, redo design
+  + move tos to middle of /commissions
+  + contact form (read about it, how to submit to my email)
+  + formsubmit.co once website live check if this works porperly (rn it doesn't send anythign, maybe it's because i'm hosting it on my pc?)
+
+css
+ + fix classes, merge what you can
+
+mobile
+ + nav

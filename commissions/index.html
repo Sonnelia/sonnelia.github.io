@@ -1,63 +1,106 @@
 <!doctype html>
+
 <html lang="en">
+  
   <head>
     <link rel="icon" href="../img/icon.png">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>sonnie's commissions</title>
+    <title>commissions | sonnelia</title>
     <meta name="artist" content="commissions">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
+
+
+
   <body>
 
     <div id="cursor"></div>
 
     <div class="noise"></div>
 
-    <div id="borders">
-      <div id="border-left"></div>
-      <div id="border-right"></div>
-      <div id="border-bottom"></div>
-    </div>
+    <div id="border"></div>
+
+    <div class="shade"></div>
 
     <header>
-        
-      <div class="noise" id="noise-cover"></div>
+      <nav class="nav-top">
+        <svg width="21" height="21" viewBox="0 0 21 21">
+          <circle cx="10.5" cy="10.5" r="1.5" fill="#ECECEC"/>
+          <line y1="10.5" x2="10" y2="10.5" stroke="url(#paint0_linear_723_3)"/>
+          <line x1="6.61088" y1="6.61092" x2="10.1464" y2="10.1465" stroke="url(#paint1_linear_723_3)"/>
+          <line x1="10.5" y1="21" x2="10.5" y2="11" stroke="url(#paint2_linear_723_3)"/>
+          <line x1="6.61092" y1="14.3891" x2="10.1465" y2="10.8536" stroke="url(#paint3_linear_723_3)"/>
+          <line x1="21" y1="10.5" x2="11" y2="10.5" stroke="url(#paint4_linear_723_3)"/>
+          <line x1="14.3891" y1="14.3891" x2="10.8536" y2="10.8535" stroke="url(#paint5_linear_723_3)"/>
+          <line x1="10.5" y1="2.18557e-08" x2="10.5" y2="10" stroke="url(#paint6_linear_723_3)"/>
+          <line x1="14.3891" y1="6.61088" x2="10.8535" y2="10.1464" stroke="url(#paint7_linear_723_3)"/>
+          <defs>
+          <linearGradient id="paint0_linear_723_3" x1="0" y1="11.5" x2="10" y2="11.5" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#ECECEC" stop-opacity="0"/>
+          <stop offset="1" stop-color="#ECECEC"/>
+          </linearGradient>
+          <linearGradient id="paint1_linear_723_3" x1="5.90377" y1="7.31803" x2="9.4393" y2="10.8536" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#ECECEC" stop-opacity="0"/>
+          <stop offset="1" stop-color="#ECECEC"/>
+          </linearGradient>
+          <linearGradient id="paint2_linear_723_3" x1="11.5" y1="21" x2="11.5" y2="11" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#ECECEC" stop-opacity="0"/>
+          <stop offset="1" stop-color="#ECECEC"/>
+          </linearGradient>
+          <linearGradient id="paint3_linear_723_3" x1="7.31803" y1="15.0962" x2="10.8536" y2="11.5607" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#ECECEC" stop-opacity="0"/>
+          <stop offset="1" stop-color="#ECECEC"/>
+          </linearGradient>
+          <linearGradient id="paint4_linear_723_3" x1="21" y1="9.5" x2="11" y2="9.5" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#ECECEC" stop-opacity="0"/>
+          <stop offset="1" stop-color="#ECECEC"/>
+          </linearGradient>
+          <linearGradient id="paint5_linear_723_3" x1="15.0962" y1="13.682" x2="11.5607" y2="10.1464" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#ECECEC" stop-opacity="0"/>
+          <stop offset="1" stop-color="#ECECEC"/>
+          </linearGradient>
+          <linearGradient id="paint6_linear_723_3" x1="9.5" y1="-2.18557e-08" x2="9.5" y2="10" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#ECECEC" stop-opacity="0"/>
+          <stop offset="1" stop-color="#ECECEC"/>
+          </linearGradient>
+          <linearGradient id="paint7_linear_723_3" x1="13.682" y1="5.90377" x2="10.1464" y2="9.4393" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#ECECEC" stop-opacity="0"/>
+          <stop offset="1" stop-color="#ECECEC"/>
+          </linearGradient>
+          </defs>
+        </svg>
 
-      <nav class="nav-main">
-        <span class="nav-front">
-          <svg><path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14ZM7 14C4.65279 14 2.75 12.0972 2.75 9.75C2.75 7.40279 4.65279 5.5 7 5.5C9.34721 5.5 11.25 7.40279 11.25 9.75C11.25 12.0972 9.34721 14 7 14Z"/></svg>
-          <a id="menu">menu</a>
-        </span>
-
-        <span class="nav-links">
+        <span class="nav-desktop">
           <a href="/">portoflio</a>
           <span class="separator"></span>
           <a href="/commissions" class="active">commissions</a>
-          <span class="separator"></span>
-          <a href="/terms-of-service">tos</a>
+        </span>
+        
+        <span class="nav-mobile">
+          <a id="menu">menu</a>
         </span>
       </nav>
 
-      <nav class="nav-contents">
-        <a id="nav-start" class="active">start<svg><circle cx="7" cy="7" r="6.5" fill="none"/></svg></a>
-        <a id="nav-illustration">illustration<svg><path d="M14 7C14 3.13401 10.866 -2.73984e-07 7 -6.11959e-07C3.13401 -9.49935e-07 3.37976e-07 3.13401 0 7L14 7Z" stroke="none"/></svg></a>
-        <a id="nav-design">design<svg><circle cx="7" cy="7" r="7" stroke="none"/></svg></a>
+      <nav class="nav-side">
+        <a id="nav-info" class="active">info<svg width="14" height="14" viewBox="0 0 14 14"><circle cx="7" cy="7" r="6.5" fill="none"/></svg></a>
+        <a id="nav-tos">terms of service<svg width="14" height="14" viewBox="0 0 14 14"><path d="M14 7C14 3.13401 10.866 -2.73984e-07 7 -6.11959e-07C3.13401 -9.49935e-07 3.37976e-07 3.13401 0 7L14 7Z" stroke="none"/></svg></a>
+        <a id="nav-contact">contact<svg width="14" height="14" viewBox="0 0 14 14"><circle cx="7" cy="7" r="7" stroke="none"/></svg></a>
       </nav>
 
       <nav class="nav-progress">
-        <div class="progress-lines" id="start-line">
-          <p>start</p>
+        <div class="progress-lines" id="info-line">
+          <p>info</p>
           <div class="progress-line"></div>
         </div>
 
-        <div class="progress-lines" id="illustration-line">
-          <p>illustration</p>
+        <div class="progress-lines" id="tos-line">
+          <p>terms of service</p>
           <div class="progress-line"></div>
         </div>
 
-        <div class="progress-lines" id="design-line">
-          <p>design</p>
+        <div class="progress-lines" id="contact-line">
+          <p>contact</p>
           <div class="progress-line"></div>
         </div>
       </nav>
@@ -66,267 +109,133 @@
 
 
     <main>
-      <div class="section" id="start">
+      <div class="section" id="info">
+        <div class="divider"><p>info</p></div>
 
-        <p id="commissions-intro">Welcome, thank you for your interest!<br>For now commissions are taken on one at a time.<br>Please read my <a href="/terms-of-service">terms of service</a> before contacting me.</p>
+        <p>Welcome, thank you for your interest! Please read my terms of service before commissioning me. Contact me to discuss custom orders (illustrations, drawn interiors, stream overlays, custom widgets, other visual design or frontend development). For examples of my work visit my <a href="/">portfolio</a> page.</p>
 
-      </div>
-
-
-
-      <div class="section commissions" id="illustration">
-        <div id="illustration-divider" class="divider"></div>
-
-        <p class="prices-intro">Below are listed base price ranges for personal use drawings and illustrations.<br>Sketches are rough, two other types are cleaned up. Shaded has simpler coloring style than painted.<br>When ordering please include as much details about your request as possible and add necessary references.</p>
-
-        <div id="prices-illustration-extra">
-
-          <p>Final price may increase depending on complexity and additions (+% of base price):</p>
+        <p>Below is a list of base prices and example features for custom stream widgets, design and/or coding. Semi commercial license. These prices are subject to change based on demand and my experience. Final price may increase depending on complexity and additions (+% of base price):</p>
   
-          <table>
-            <tbody>
-              <tr id="prices-illustration-extra-left">
-                <td>+0-25%</td>
-                <td>+75%</td>
-                <td>+25-50% </td>
-                <td>+10-50%</td>
-                <td>+10-100%</td>
-              </tr>
-              <tr id="prices-illustration-extra-right">
-                <td>design complexity,</td>
-                <td>additional characters,</td>
-                <td>animals/creatures,</td>
-                <td>other props,</td>
-                <td>background.</td>
-              </tr>
-            </tbody>
-          </table>
-        
+        <div id="extra-prices">
+          <div><p>+10%</p><p>light/dark mode or other color changing,</p></div>
+          <div><p>+50%</p><p>horizontal/vertical orientation,</p></div>
+          <div><p>+50%</p><p>regular/compact/minimal version,</p></div>
+          <div><p>+0-100%</p><p>unique animations or vfx,</p></div>
+          <div><p>+€2.5</p><p>most other features not included by default.</p></div>
         </div>
-        
-        <table id="prices-illustration">
+
+        <table id="pricelist">
           <tbody>
             <tr>
-              <th>sketch<br>$20 - $30</th>
-              <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/rikku.png" alt="rikku fanart">
-              </td>
-              <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/short-hair.png" alt="celestine in short hair">
-              </td>
+              <th>Chat</th>
+              <td>design €55,</td>
+              <td>coding €70.</td>
+
+              <th>Example features</th>
+              <td>user role styling,</td>
+              <td>message variations (ex. highlighted),</td>
+              <td>custom badges or decorations,</td>
+              <td>pronouns next to username,</td>
+              <td>large emotes for emote only messages,</td>
+              <td>“replying to” above a message,</td>
+              <td>connected messages from the same user,</td>
+              <td>integrated alerts,</td>
+              <td>message or alert sound effects setup.</td>
+
+              <th>Included by default</th>
+              <td>bttv, ffz, 7tv emotes,</td>
+              <td>ignored users list,</td>
+              <td>ignore commands toggle,</td>
+              <td>toggles for each alert type (if integrated),</td>
+              <td>limiting, timed hiding and aligning messages.</td>
             </tr>
             <tr>
-              <th>shaded<br>$45 - $85</th>
-              <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/desk.png" alt="celestine on desk">
-              </td>
-              <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/starzy_dopiero_wstali.png" alt="me and strix">
-              </td>
+              <th>Goal</th>
+              <td>design €25,</td>
+              <td>coding €35.</td>
+
+              <th>Example features</th>
+              <td>progress bar styling,</td>
+              <td>different goal types (sub, dono, custom, etc.),</td>
+              <td>custom badges or decorations,</td>
+              <td>sub points system,</td>
+              <td>milestones,</td>
+              <td>mini event alerts,</td>
+              <td>sound effects setup.</td>
+
+              <th>Included by default</th>
+              <td>choose goal period,</td>
+              <td>modify goal progress with commands,</td>
+              <td>choose behavior on goal reached,</td>
+              <td>automatic save and load function.</td>
             </tr>
             <tr>
-              <th>painted<br>$75 - $125</th>
-              <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/soaked.png" alt="celestine">
-              </td>
-              <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/defect.png" alt="salvia">
-              </td>
+              <th>Megathon</th>
+              <td>design €35,</td>
+              <td>coding €60.</td>
+
+              <th>Example features</th>
+              <td>timer with statuses (ex. paused),</td>
+              <td>event points system,</td>
+              <td>progress bar styling,</td>
+              <td>unlimited goals,</td>
+              <td>mini event alerts,</td>
+              <td>sound effects setup.</td>
+
+              <th>Included by default</th>
+              <td>commands to control the timer, points and goals,</td>
+              <td>command permits and cooldown,</td>
+              <td>initial and max time duration + autolock,</td>
+              <td>automatic save and load function.</td>
             </tr>
           </tbody>
         </table>
-
-        <div id="prices-emotes">
-          <p>I also offer emotes for $15 each, personal or semi-commercial use, not animated.</p>
-          <div class="images-inline">
-            <img class="image-preview" src="../img/commissions/emotes.png" alt="strix emotes">
-          </div>
-        </div>
-
-        <div class="contact">
-          <p>Ready to order? Contact me here:</p>
-
-          <div class="links">
-            <a href="https://artistree.io/sonnelia" target="_blank" rel="noopener noreferrer">artistree</a>
-            <span class="separator"></span>
-            <a class="mail">mail</a>
-          </div>
-        </div>
 
       </div>
 
 
 
-      <div class="section commissions" id="design">
-        <div id="design-divider" class="divider"></div>
-
-        <p class="prices-intro">Here are listed base prices and features for custom stream widgets, design and/or coding. Semi commercial license.<br><br>All additional features and variations increase the final price (some add % of base price, most add a constant value of $3 per each).<br>Upon ordering you will be provided with a checklist of features you want to have included.</p>
-
-        <table id="prices-design">
-          <tbody>
-            <tr>
-              <th>chat<br>design starts at $65<br>coding starts at $80</th>
-              <td>
-                <dl>
-                  <dt>Features:</dt>
-                  <dd>role styling,</dd>
-                  <dd>special message variations (e.g. highlighted),</dd>
-                  <dd>custom badges or decorations,</dd>
-                  <dd>pronouns next to username,</dd>
-                  <dd>large emotes for emote only messages,</dd>
-                  <dd>“replying to” above a message,</dd>
-                  <dd>connected messages from the same user,</dd>
-                  <dd>messages fade over time,</dd>
-                  <dd>in-chat alerts,</dd>
-                  <dd>custom animations.</dd>
-
-                  <dt>Additional chat styles:</dt>
-                  <dd>+10% light/dark mode or other color changing,</dd>
-                  <dd>+50% horizontal/vertical orientation,</dd>
-                  <dd>+50% regular/compact/minimal version.</dd>
-
-                  <dt>Functions included by default:</dt>
-                  <dd>messages deleted on twitch also disappear in widget,</dd>
-                  <dd>ignored usernames text field (like chat bots),</dd>
-                  <dd>ignore chat commands toggle (starting with “!”).</dd>
-                </dl>
-              </td>
-            </tr>
-            <tr class="design-images">
-              <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/strix-chat-widget.png" alt="normal and compact versions of chat widget for strix">
-              </td>
-              <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/kix-chat-widget.png" alt="chat widget for kitsune">
-              </td>
-            </tr>
-          </tbody>
+      <div class="section" id="tos">
+        <div class="divider"><p>terms of service</p></div>
           
-          <tbody>
-            <tr>
-              <th>alert<br>design starts at $30<br>coding starts at $40</th>
-              <td>
-                <dl>
-                  <dt>Features:</dt>
-                  <dd>alert styling,</dd>
-                  <dd>custom messages (e.g. "x just subscribed!"),</dd>
-                  <dd>custom animations.</dd>
+        <div id="terms-of-service"></div>
+      </div>
 
-                  <dt>Functions included by default:</dt>
-                  <dd>show/hide toggles for each alert type,</dd>
-                  <dd>minimum amount text field for alert to show up,</dd>
-                  <dd>alert sounds setup.</dd>
-                </dl>
-              </td>
-            </tr>
-            <tr class="design-images">
-              <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/strix-alert-widget.gif" alt="alert widget for strix">
-              </td>
-            </tr>
-          </tbody>
-          
-          <tbody>
-            <tr>
-              <th>goal<br>design starts at $30<br>coding starts at $40</th>
-              <td>
-                <dl>
-                  <dt>Features:</dt>
-                  <dd>progress bar styling,</dd>
-                  <dd>different goal types,</dd>
-                  <dd>milestones,</dd>
-                  <dd>mini event alerts,</dd>
-                  <dd>custom animations.</dd>
 
-                  <dt>Functions included by default:</dt>
-                  <dd>choose goal time period,</dd>
-                  <dd>modify goal progress with commands,</dd>
-                  <dd>choose behavior on goal reached,</dd>
-                  <dd>automatic save and load function.</dd>
-                </dl>
-              </td>
-            </tr>
-            <tr class="design-images">
-              <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/strix-goal-widget.gif" alt="goal widget for strix">
-              </td>
-            </tr>
-          </tbody>
-          
-          <tbody>
-            <tr>
-              <th>megathon<br>design starts at $40<br>coding starts at $70</th>
-              <td>
-                <dl>
-                  <dt>Features:</dt>
-                  <dd>timer with statuses (e.g. paused),</dd>
-                  <dd>event point system,</dd>
-                  <dd>progress bar styling,</dd>
-                  <dd>unlimited goals,</dd>
-                  <dd>mini event alerts,</dd>
-                  <dd>sound effects,</dd>
-                  <dd>custom animations.</dd>
 
-                  <dt>Functions included by default:</dt>
-                  <dd>commands to control timer, points and goals,</dd>
-                  <dd>command permits for mods + comand cooldown setup,</dd>
-                  <dd>initial and max time duration + autolock,</dd>
-                  <dd>automatic save and load function.</dd>
-                </dl>
-              </td>
-            </tr>
-            <tr class="design-images">
-              <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/strix-megathon-widget.gif" alt="megathon widget for strix">
-              </td>
-            </tr>
-          </tbody>
-          
-          <tbody>
-            <tr>
-              <th>custom<br>price varies - contact to discuss</th>
-              <td>
-                <dl>
-                  <dt>Can be anything within my and the service's capabilities.</dt>
-                </dl>
-              </td>
-            </tr>
-            <tr class="design-images">
-              <td class="commission-preview">
-                <img class="image-preview" src="../img/commissions/strix-custom-widget.gif" alt="callout widget for strix">
-              </td>
-            </tr>
-          </tbody>
-          
-          
-          <tbody id="design-info">
-            <tr>
-              <td>
-                <dl>
-                  <dt>Important information regarding widgets:</dt>
-                  <dd>Price includes half year support for future bug fixing and small tweaking updates.</dd>
-                  <dd>Price does not include big changes to design after agreement on final design and big changes to code after the project has finalized.</dd>
-                  <dd>Any widget functionality can be customized and mixed. You can propose features not listed here and I will try to implement them as long as it is possible via StreamElements.</dd>
-                  <dd>If you request specific animations I will try my hardest to satisfy your vision, even though I am not experienced in animation.</dd>
-                  <dd>All widgets are for twitch since I have not yet made anything for youtube. If you are willing to wait a bit more for a youtube or multistream version, feel free to contact me!</dd>
-                  <dd>Additionally, all widgets are for StreamElements only, because this platform has the most features and support for customizability. Though I am open to other similar tools!</dd>
-                </dl>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="section" id="contact">
+        <div class="divider"><p>contact</p></div>
 
-        <div class="contact">
-          <p>Ready to order? Contact me here:</p>
+        <p>Feel free to contact me for both inquiries and questions by using the form below or emailing me at glitchedmoons@gmail.com, via my commission platforms or social media. Though I do not guarantee that I will answer if you reach out to me via social media, I ask for your understanding.</p>
 
-          <div class="links">
-            <a href="https://artistree.io/sonnelia" target="_blank" rel="noopener noreferrer">artistree</a>
-            <span class="separator"></span>
-            <a class="mail">mail</a>
+        <p>If you’d like to commission me please make sure you read and understood my terms of service and included in your order as much information as needed. Keep in mind I can only take on a limited number of commissions at a time and might not be able to accept your request at the moment. You are welcome to reach out to me at a later date though!</p>
+
+        <form action="https://formsubmit.co/glitchedmoons@gmail.com" method="POST" enctype="multipart/form-data">
+          <input type="hidden" name="_next" value="https://sonnelia.github.io/commissions/">
+          <input type="hidden" name="_captcha" value="false">
+
+          <div>
+            <label>Name</label>
+            <input type="text" name="name" required placeholder="required">
           </div>
-        </div>
+          
+          <div>
+            <label>Email</label>
+            <input type="email" name="email" required placeholder="required">
+          </div>
+          
+          <div>
+            <label>Subject</label>
+            <input type="text" name="subject" required placeholder="required">
+          </div>
+          
+          <div>
+            <label>Contents</label>
+            <textarea name="message" required placeholder="required"></textarea>
+          </div>
 
-        <p class="copyrights">© 2024 Sonnelia. All rights reserved.</p>
+          <input type="submit" value="submit">
+        </form>
 
       </div>
 
@@ -334,23 +243,26 @@
     
 
 
-    <div class="image-viewer">
-
-      <div class="noise" id="noise-viewer"></div>
-
-      <nav class="nav-viewer">
-        <div class="viewer-menu">
-          <svg><path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14ZM7 14C4.65279 14 2.75 12.0972 2.75 9.75C2.75 7.40279 4.65279 5.5 7 5.5C9.34721 5.5 11.25 7.40279 11.25 9.75C11.25 12.0972 9.34721 14 7 14Z"/></svg>
-          <a class="viewer-close">close</a>
+    <footer>
+      <div class="links">
+        <div>
+          <a href="https://twitter.com/sonnelias" target="_blank" rel="noreferrer">Twitter</a>
+          <a href="https://bsky.app/profile/sonnelia.bsky.social" target="_blank" rel="noreferrer">Bluesky</a>
+          <a href="https://sonnelia.tumblr.com" target="_blank" rel="noreferrer">Tumblr</a>
         </div>
-        <div class="viewer-navigation">
-          <a class="viewer-previous"><svg><path d="M7 0C3.134 0-0 3.134-0 7-0 10.866 3.134 14 7 14L7 0Z" stroke="none"/></svg></a>
-          <a class="viewer-next"><svg><path d="M7 14C10.866 14 14 10.866 14 7 14 3.134 10.866 0 7 0L7 14Z" stroke="none"/></svg></a>
+        <span class="separator"></span>
+        <div>
+          <a href="https://artistree.io/sonnelia" target="_blank" rel="noreferrer">Artistree</a>
+          <a href="https://vgen.co/sonnelia" target="_blank" rel="noreferrer">VGen</a>
+          <a href="https://www.patreon.com/Sonnelia" target="_blank" rel="noreferrer">Patreon</a>
         </div>
-      </nav>
-      <img class="image-zoom">
-      <p class="caution">© Sonnelia. Repost or reproduction prohibited.</p>
-    </div>
+      </div>
+
+      <div class="legal">
+        <img class="logo" src="/img/logo.png" alt="glitched moons logo">
+        <p>Glitched Moons © 2025 Sonnelia. All rights reserved. Contact: glitchedmoons@gmail.com.<br>Unauthorized copying and replication of the contents of this website is strictly prohibited.</p>
+      </div>
+    </footer>
     
     <script src="../js/functions.js"></script>
   </body>

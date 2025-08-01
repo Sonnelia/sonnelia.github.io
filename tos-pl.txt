@@ -1,71 +1,78 @@
-〈  I L U S T R A C J E  &  D E S I G N  〉
+⸬ wstęp
+
+∙ Zamawiając, klient wyraża zgodę warunki świadczenia moich usług. Proszę uważnie je przeczytać przed złożeniem zamówienia. Brak zgody na poniższe warunki prowadzi do natychmiastowej odmowy zamówienia.
+∙ Naruszenie któregokolwiek z tych warunków skutkuje zakończeniem projektu i prawdopodobnie umieszczeniem klienta na czarnej liście.
+∙ Złamanie jakiejkolwiek zasady zawartej w sekcji dotyczącej praw autorskich spowoduje, że klient będzie winien mi grzywnę oraz zostanie pozbawiony wszelkich praw do korzystania z któregokolwiek z zamówionych produktów.
 
 
 
-〔 ZASADY OGÓLNE 〕
+⸬ kontakt
 
-› Zamawiając, klient wyraża zgodę warunki świadczenia moich usług. Proszę uważnie je przeczytać przed złożeniem zamówienia.
-› Podane ceny dotyczą użytku osobistego albo półkomercyjnego. Zamówienia komercyjne będą kosztować więcej, w zależności od skali projektu. Przy składaniu zamówienia proszę podać cel zlecenia.
-› Zastrzegam sobie prawo do odrzucenia zamówienia bez podania przyczyny. Nie przyjmuję próśb zawierających gore, przemoc, obraźliwe motywy, treści o charakterze seksualnym, fetysze.
-› Wykorzystywanie mojej twórczości do celów związanych z NFT albo AI jest surowo zabronione.
-› Proszę pamiętać o właściwym podpisywaniu mnie jako twórcę podczas używania moich produktów.
-› Proszę o dołączenie referencji przy składaniu zamówienia. Nie muszą być ładne, nawet rysunek myszką w paincie albo kolaż obrazów jest przydatny.
-› Proszę o kontakt w przypadku omówienia zlecenia wykraczającego poza mój cennik (jak rysowane wnętrza, overlaye do streamów, inny visual design lub frontend development).
+∙ Kontakt wstępny najlepiej przez email (glitchedmoons@gmail.com), Artistree (artistree.io/sonnelia) albo VGen (vgen.co/sonnelia). W przeciwnym razie prośby mogą nie być brane pod uwagę.
+∙ Zastrzegam sobie prawo do odrzucenia zamówienia bez podania przyczyny. Nie przyjmuję próśb zawierających gore, przemoc, obraźliwe motywy, treści o charakterze seksualnym, fetysze.
+∙ Podczas zamawiania, oprócz podstawowego opisu, klient musi podać zamiar wykorzystania zamówionej pracy, limit cenowy jeśli mieści się w budżecie, termin realizacji jeśli istnieje oraz prośbę o zachowanie poufności jeśli jest wymagana.
+∙ Ponadto, przy składaniu zamówienia wymagam od klienta referencji wizualnych. Mogą to być proste symboliczne rysunki i/lub kolaż obrazów. Naliczane będą dodatkowe opłaty, jeśli będę musiała zebrać je samodzielnie.
+∙ Jeżeli dołączone referencje zawierają gotowe grafiki/assety, klient musi mieć pozwolenie lub prawa od oryginalnego twórcy, aby móc je wykorzystać w projekcie.
 
 
-〔 PRZEBIEG ZLECENIA 〕
 
-₁ Kontakt poprzez email lub artistree z podstawowymi szczegółami.
-₂ Omówienie treści zlecenia, przewidywanego czasu i ceny.
-₃ Faktura przesłana mailem (do zapłaty w ciągu 14 dni).
-₄ Rozpoczęcie zlecenia po płatności.
-₅ Informowanie o postępach i poprawy.
-₆ Gotowe pliki wysłane mailem.
+⸬ komunikacja
+
+∙ Dla ułatwienia komunikacji, szczególnie podczas pracy nad większymi projektami, mogę zaoferować kontakt poprzez mój serwer roboczy na discordzie (nie w wiadomościach prywatnych).
+∙ Jeśli klient przestanie odpowiadać przez ponad dwa tygodnie bez wcześniejszego powiadomienia, zlecenie będzie wstrzymana. Mogę również zakończyć projekt i zaoferować zwrot pieniędzy bazowany na postępie.
+∙ Wszelkie informacje osobiste oraz zapisy rozmów związanych ze zleceniem będą traktowane poufnie przez artystę, to samo jest oczekiwane od klienta.
 
 
-〔 WARUNKI ŚWIADCZENIA USŁUG 〕
 
-〈 wstęp 〉
-› Brak zgody na poniższe warunki prowadzi do natychmiastowej odmowy zamówienia.
-› Naruszenie któregokolwiek z tych warunków skutkuje zakończeniem projektu i prawdopodobnie umieszczeniem klienta na czarnej liście.
-› Złamanie jakiejkolwiek zasady zawartej w sekcji dotyczącej praw autorskich spowoduje, że klient będzie winien mi grzywnę oraz zostanie pozbawiony wszelkich praw do korzystania z któregokolwiek z zamówionych produktów.
+⸬ płatność
 
-〈 kontakt i komunikacja 〉
-› Kontakt wstępny wyłącznie poprzez email (glitchedmoons@gmail.com) albo artistree (artistree.io/sonnelia). W przeciwnym razie prośby nie będą brane pod uwagę.
-› Dla ułatwienia komunikacji, szczególnie podczas pracy nad większymi projektami, mogę zaoferować kontakt poprzez mój serwer roboczy na discordzie (nie w wiadomościach prywatnych).
-› Oprócz podstawowego opisu wymagam od klienta referencji wizualnych. Za samodzielne ich zebranie pobiorę dodatkową opłatę.
-› Klient musi mieć pozwolenie na wykorzystanie gotowych rysunków/assetów od oryginalnego twórcy, jeśli zostały mi dane do wykorzystania w projekcie.
-› Jeśli klient przestanie odpowiadać przez ponad dwa tygodnie bez wcześniejszego powiadomienia, mogę zakończyć projekt i zaoferować zwrot pieniędzy bazowany na postępie.
-› Wszystkie dane osobowe będą traktowane poufnie zarówno przez klienta, jak i artystę.
+∙ Akceptuję płatności tylko poprzez Artistree, VGen lub Tipo. Preferowaną metodą jest Artistee.
+∙ Wyłącznie płatności z góry, do zapłaty w ciągu 14 dni kalendarzowych od otrzymania faktury. W przeciwnym wypadku zlecenie zostanie anulowane.
+∙ Dodatkowe opłaty muszą być wykonane maksymalnie do 7 dni od zakończenia projektu. W przeciwnym razie projekt zostanie uznany za anulowany, a klient nie otrzyma żadnych plików.
 
-〈 płatność 〉
-› Akceptuję płatności tylko poprzez artistree lub tipo.
-› Wyłącznie płatności z góry, do zapłaty w ciągu 14 dni kalendarzowych od otrzymania faktury. W przeciwnym wypadku zlecenie zostanie anulowane.
-› Dodatkowe opłaty muszą być wykonane maksymalnie do 7 dni od zakończenia projektu. W przeciwnym razie projekt zostanie uznany za anulowany, a klient nie otrzyma żadnych plików.
 
-〈 anulowanie i polityka zwrotów 〉
-› Zastrzegam sobie prawo do rezygnacji z zamówienia w każdym momencie. W przypadku, gdy anuluję zamówienie po rozpoczęciu pracy, klient otrzymuje zwrot pieniędzy bazowany na postępie i może zażądać otrzymania nieskończonej pracy.
-› Klient może anulować zlecenie i zażądać całkowity zwrot pieniędzy tylko wtedy, gdy jeszcze nie zaczęłam zamówienia. Klient nie może anulować zlecenia po rozpoczęciu nad nim pracy przeze mnie.
-› W przypadku, gdy klient nie chce produktu w stanie anulowania, zastrzegam sobie prawo do wykorzystania pracy w innym projekcie.
 
-〈 postęp i poprawy 〉
-› Klient będzie mógł na bieżąco podejrzeć stan projektu i poprosić o niezbędne zmiany. Duże lub wielokrotne zmiany mogą wymagać dodatkowej opłaty.
-› Zlecenia z kodem obejmują półroczne wsparcie w zakresie naprawiania błędów i drobnych aktualizacji.
-› Wszelkie poprawki, dodatki albo aktualizacje dla ukończonych projektów będą traktowane jako nowy projekt i będą odpowiednio wycenione.
+⸬ anulowanie i polityka zwrotów
 
-〈 terminy i dostawa 〉
-› Zamówienie na jeden produkt zajmie od 1 tygodnia do 2 miesięcy, w zależności od złożoności i mojej dostępności. Jeśli będę potrzebować więcej czasu, poinformuję klienta.
-› Nie będę pracować pod presją ani w pośpiechu. Składając zamówienie, klient zgadza się na moje terminy i nie może narzucać innych.
-› Gotowe produkty zostaną przesłane przez email jako pliki cyfrowe do pobrania.
+∙ Zastrzegam sobie prawo do rezygnacji z zamówienia w każdym momencie. Jeśli anuluję zamówienie po rozpoczęciu pracy, klient otrzymuje zwrot pieniędzy bazowany na postępie i może zażądać otrzymania nieskończonej pracy.
+∙ Klient może anulować zlecenie i zażądać całkowity zwrot pieniędzy tylko wtedy, gdy jeszcze nie zaczęłam zamówienia. Klient nie może anulować zlecenia po rozpoczęciu nad nim pracy przeze mnie.
+∙ W przypadku, gdy klient nie chce produktu w stanie anulowania, zastrzegam sobie prawo do wykorzystania pracy w innym projekcie.
 
-〈 prawa autorskie i użytkowanie 〉
-› Ja, artysta, zachowuję pełne i wyłączne prawa do zleconego dzieła. Klientowi nie wolno uważać mojej pracy za swoją własną ani wykorzystywać jej do celów innych niż pierwotnie zadeklarowane.
-› Zastrzegam sobie prawo do wykorzystania zleconych prac w portfolio, social mediach itp. w celach autopromocji. Klient może zażądać o tymczasową poufność.
-› Klient podczas używania moich produktów jest zobowiązany do podania mnie jako twórcę.
-› Klientowi nie wolno w żaden sposób edytować zleconego dzieła bez mojej zgody, proszę o kontakt aby to omówić.
-› Nie zezwalam na wykorzystanie mojej twórczości do trenowania AI albo sprzedaży NFT, a także do zmienienia użycia, silnego wzorowania, kalkowania i/lub kopiowania.
 
-〈 licencja komercyjna 〉
-› Wszystkie zlecenia są przeznaczone do użytku osobistego, chyba że klient określi inaczej podczas składania zamówienia.
-› Assety do streamów i grafiki promocyjne będą uważane jako półkomercyjne, co oznacza, że klient może pośrednio czerpać z nich zyski.
-› Zlecone prace przeznaczone do cyfrowej lub fizycznej sprzedaży zostaną sklasyfikowane jako komercyjne i będą odpowiednio wycenione, w zależności od skali.
+
+⸬ postęp i poprawy
+
+∙ Klient będzie mógł na bieżąco podejrzeć stan projektu i poprosić o niezbędne zmiany. Duże lub wielokrotne zmiany mogą wymagać dodatkowej opłaty.
+∙ Zlecenia z kodem obejmują półroczne wsparcie w zakresie naprawiania błędów i drobnych aktualizacji.
+∙ Wszelkie poprawki, dodatki albo aktualizacje dla ukończonych projektów będą traktowane jako nowy projekt i będą odpowiednio wycenione.
+
+
+
+⸬ terminy i dostawa
+
+∙ Zamówienie na jeden produkt może zająć do 2 miesięcy, w zależności od złożoności i mojej dostępności. Poinformuję klienta, jeśli będę potrzebować więcej czasu.
+∙ Nie będę pracować pod presją ani w pośpiechu. Składając zamówienie, klient zgadza się na moje tempo pracy i nie może narzucać innych.
+∙ Gotowe produkty zostaną przesłane przez email jako pliki cyfrowe do pobrania.
+
+
+
+⸬ prawa autorskie i użytkowanie
+
+∙ Ja, artysta, zachowuję pełne i wyłączne prawa do zleconego dzieła. Klientowi nie wolno uważać mojej pracy za swoją własną ani wykorzystywać jej do celów innych niż pierwotnie zadeklarowane.
+∙ Zastrzegam sobie prawo do wykorzystania zleconych prac w portfolio, mediach społecznościowych itp. w celu promocji własnej osoby, chyba że klient zażądał zachowania poufności w określonym czasie.
+∙ Klient zobowiązany jest do podania mnie jako autora w przypadku korzystania z zamówionego produktu, poprzez dołączenie odnośnika do mojej strony internetowej lub jednego z moich mediów społecznościowych.
+∙ Klientowi nie wolno udostępniać prac będących w procesie tworzenia bez mojej zgody, albo podania mnie jako autora.
+∙ Klientowi nie wolno w żaden sposób edytować zleconego dzieła bez mojej zgody, proszę o kontakt aby to omówić.
+∙ Nie zezwalam na wykorzystanie mojej twórczości do trenowania AI albo sprzedaży NFT, a także do zmienienia użycia, silnego wzorowania, kalkowania i/lub kopiowania.
+
+
+
+⸬ licencja komercyjna
+
+∙ Większość zleceń niestandardowych przeznaczona jest do użytku osobistego, chyba że klient wskaże inaczej przy składaniu zamówienia.
+∙ Assety do streamów i grafiki promocyjne będą uważane za pół komercyjne, co oznacza, że ​​klient może czerpać z nich zyski pośrednio.
+∙ Zlecone prace przeznaczone do sprzedaży cyfrowej lub fizycznej będa klasyfikowane jako komercyjne i odpowiednio wycenione, w zależności od skali.
+
+
+
+Ostatnio zaktualizowane: 19 maja 2025.

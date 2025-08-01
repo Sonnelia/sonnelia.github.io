@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>sonnie's portfolio</title>
+    <meta name="artist" content="portfolio">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+    <div class="borders">
+      <div class="border-left"></div>
+      <div class="border-top"></div>
+      <div class="border-right"></div>
+      <div class="border-bottom"></div>
+    </div>
+
+    <header>
+      <nav class="nav-main">
+        <a id="home">home</a>
+        <a id="work">work</a>
+        <a id="about">about</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="home">
+        <p id="intro"></p>
+      </div>
+
+
+      <div class="work">
+        <div id="work-divider" class="divider"></div>
+
+        <div id="art-menu" class="menu">
+          <div class="menu-main">
+            <a>work</a>
+            <div class="menu-arrow">&lt;</div>
+          </div>
+          
+          <div class="menu-wrap">
+            <a id="menu-illustration" class="menu-child">illustration</a>
+            <a id="menu-design" class="menu-child">design</a>
+          </div>
+        </div>
+
+        <div id="illustration" class="artwork active">
+          <div class="column-left">
+            <div class="column-big">
+              <img class="image-preview" src="img/illustration/lifedobelikethatsometimes.png" alt="strix shinji">
+              <img class="image-preview" src="img/illustration/mizuki.png" alt="mizuki fanart">
+              <img class="image-preview" src="img/illustration/szprotkum.png" alt="szprotka commission">
+            </div>
+            <div class="column-small">
+              <img class="image-preview" src="img/illustration/slumber.png" alt="celestine concept">
+              <img class="image-preview" src="img/illustration/sketchbook2522.png" alt="celestine">
+              <img class="image-preview" src="img/illustration/love.png" alt="celestine">
+              <img class="image-preview" src="img/illustration/Illustration4.png" alt="iris">
+            </div>
+          </div>
+          <div class="column-right">
+            <img class="image-preview" src="img/illustration/salvia_concept2.png" alt="salvia concept">
+            <img class="image-preview" src="img/illustration/lilian.png" alt="lilian">
+            <img class="image-preview" src="img/illustration/starfell waltz.png" alt="starfell waltz">
+          </div>
+        </div>
+        
+        <div id="design" class="artwork">
+          <div class="column-center">
+            <img class="image-preview" src="img/design/strixamiumschedule 2.0 demo.png" alt="strix schedule">
+            <img class="image-preview" src="img/design/chatting.png" alt="strix chatting">
+            <img class="image-preview" src="img/design/starting_soon.png" alt="strix starting soon">
+          </div>
+        </div>
+
+      </div>
+      
+
+      <div class="about">
+        <div id="about-divider" class="divider"></div>
+        <div class="self">
+          <img src="img/stara_dopiero_wstala.png" alt="self">
+          <p class="bio">Hello, my name is Sonnelia. I am trying to find a place for myself in this collapsing world.</p>
+        </div>
+      </div>
+
+    </main>
+    
+    <div class="image-viewer">
+      <nav class="nav-viewer">
+        <a class="viewer-close">x</a>
+        <span class="viewer-previous"><a>&lt;</a></span>
+        <span class="viewer-next"><a>&gt;</a></span>
+      </nav>
+      <img class="image-zoom">
+      <p id="caution" class="copyrights">repost or reproduction prohibited</p>
+    </div>
+
+    <div class="cursor"></div>
+    
+    <script src="js/functions.js"></script>
+  </body>
+</html>

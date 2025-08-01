@@ -1,0 +1,22 @@
+# LATEST WIDGET VERSIONS BY DAY/MONTH/YEAR
+template-chat=6/24
+strix-chat=9/24
+strix-alert=9/24
+strix-goal=8/24
+strix-megathon=23/11/24
+strix-callout=30/11/24
+kix-chat=6/24
+luciela-subathon=12/12/24
+leolione-chat=29/11/24
+yaiyahn-chat=08/01/25
+seol-memoxx-clock=04/04/25
+seol-memoxx-chat=04/04/25
+taiga-chat=18/02/25
+seol-nightglow-chat=07/04/25
+seol-nightglow-icon=07/04/25
+seol-nightglow-goal=08/04/25
+seol-nightglow-chat-youtube=07/05/25
+egistential-chat=05/05/25
+perindigo-popup=12/06/25
+ziyan-chat=27/07/25
+ziyan-goal=27/07/25

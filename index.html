@@ -1,64 +1,108 @@
 <!doctype html>
+
 <html lang="en">
+
   <head>
     <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="css/styles.css">
-    <title>sonnie's portfolio</title>
+    <title>portfolio | sonnelia</title>
     <meta name="artist" content="portfolio">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
+  
+
+  
   <body>
 
     <div id="cursor"></div>
 
     <div class="noise"></div>
 
-    <div id="borders">
-      <div id="border-left"></div>
-      <div id="border-right"></div>
-      <div id="border-bottom"></div>
-    </div>
+    <div id="border"></div>
+
+    <div class="shade"></div>
 
 
 
     <header>
-      <div class="noise" id="noise-cover"></div>
+      <nav class="nav-top">
+        <svg width="21" height="21" viewBox="0 0 21 21">
+          <circle cx="10.5" cy="10.5" r="1.5" fill="#ECECEC"/>
+          <line y1="10.5" x2="10" y2="10.5" stroke="url(#paint0_linear_723_3)"/>
+          <line x1="6.61088" y1="6.61092" x2="10.1464" y2="10.1465" stroke="url(#paint1_linear_723_3)"/>
+          <line x1="10.5" y1="21" x2="10.5" y2="11" stroke="url(#paint2_linear_723_3)"/>
+          <line x1="6.61092" y1="14.3891" x2="10.1465" y2="10.8536" stroke="url(#paint3_linear_723_3)"/>
+          <line x1="21" y1="10.5" x2="11" y2="10.5" stroke="url(#paint4_linear_723_3)"/>
+          <line x1="14.3891" y1="14.3891" x2="10.8536" y2="10.8535" stroke="url(#paint5_linear_723_3)"/>
+          <line x1="10.5" y1="2.18557e-08" x2="10.5" y2="10" stroke="url(#paint6_linear_723_3)"/>
+          <line x1="14.3891" y1="6.61088" x2="10.8535" y2="10.1464" stroke="url(#paint7_linear_723_3)"/>
+          <defs>
+          <linearGradient id="paint0_linear_723_3" x1="0" y1="11.5" x2="10" y2="11.5" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#ECECEC" stop-opacity="0"/>
+          <stop offset="1" stop-color="#ECECEC"/>
+          </linearGradient>
+          <linearGradient id="paint1_linear_723_3" x1="5.90377" y1="7.31803" x2="9.4393" y2="10.8536" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#ECECEC" stop-opacity="0"/>
+          <stop offset="1" stop-color="#ECECEC"/>
+          </linearGradient>
+          <linearGradient id="paint2_linear_723_3" x1="11.5" y1="21" x2="11.5" y2="11" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#ECECEC" stop-opacity="0"/>
+          <stop offset="1" stop-color="#ECECEC"/>
+          </linearGradient>
+          <linearGradient id="paint3_linear_723_3" x1="7.31803" y1="15.0962" x2="10.8536" y2="11.5607" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#ECECEC" stop-opacity="0"/>
+          <stop offset="1" stop-color="#ECECEC"/>
+          </linearGradient>
+          <linearGradient id="paint4_linear_723_3" x1="21" y1="9.5" x2="11" y2="9.5" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#ECECEC" stop-opacity="0"/>
+          <stop offset="1" stop-color="#ECECEC"/>
+          </linearGradient>
+          <linearGradient id="paint5_linear_723_3" x1="15.0962" y1="13.682" x2="11.5607" y2="10.1464" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#ECECEC" stop-opacity="0"/>
+          <stop offset="1" stop-color="#ECECEC"/>
+          </linearGradient>
+          <linearGradient id="paint6_linear_723_3" x1="9.5" y1="-2.18557e-08" x2="9.5" y2="10" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#ECECEC" stop-opacity="0"/>
+          <stop offset="1" stop-color="#ECECEC"/>
+          </linearGradient>
+          <linearGradient id="paint7_linear_723_3" x1="13.682" y1="5.90377" x2="10.1464" y2="9.4393" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#ECECEC" stop-opacity="0"/>
+          <stop offset="1" stop-color="#ECECEC"/>
+          </linearGradient>
+          </defs>
+        </svg>
 
-      <nav class="nav-main">
-        <span class="nav-front">
-          <svg><path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14ZM7 14C4.65279 14 2.75 12.0972 2.75 9.75C2.75 7.40279 4.65279 5.5 7 5.5C9.34721 5.5 11.25 7.40279 11.25 9.75C11.25 12.0972 9.34721 14 7 14Z"/></svg>
-          <a id="menu">menu</a>
-        </span>
-
-        <span class="nav-links">
+        <span class="nav-desktop">
           <a href="/" class="active">portoflio</a>
           <span class="separator"></span>
           <a href="/commissions">commissions</a>
-          <span class="separator"></span>
-          <a href="/terms-of-service">tos</a>
+        </span>
+        
+        <span class="nav-mobile">
+          <a id="menu">menu</a>
         </span>
       </nav>
 
-      <nav class="nav-contents">
-        <a id="nav-home" class="active">home<svg><circle cx="7" cy="7" r="6.5" fill="none"/></svg></a>
-        <a id="nav-work">work<svg><path d="M14 7C14 3.13401 10.866 -2.73984e-07 7 -6.11959e-07C3.13401 -9.49935e-07 3.37976e-07 3.13401 0 7L14 7Z" stroke="none"/></svg></a>
-        <a id="nav-about">about<svg><circle cx="7" cy="7" r="7" stroke="none"/></svg></a>
+      <nav class="nav-side">
+        <a id="nav-intro" class="active">intro<svg width="14" height="14" viewBox="0 0 14 14"><circle cx="7" cy="7" r="6.5" fill="none"/></svg></a>
+        <a id="nav-assets">stream assets<svg width="14" height="14" viewBox="0 0 14 14"><path d="M14 7C14 3.13401 10.866 -2.73984e-07 7 -6.11959e-07C3.13401 -9.49935e-07 3.37976e-07 3.13401 0 7L14 7Z" stroke="none"/></svg></a>
+        <a id="nav-illustration">illustrations<svg width="14" height="14" viewBox="0 0 14 14"><circle cx="7" cy="7" r="7" stroke="none"/></svg></a>
       </nav>
 
       <nav class="nav-progress">
-        <div class="progress-lines" id="home-line">
-          <p>home</p>
+        <div class="progress-lines" id="intro-line">
+          <p>intro</p>
           <div class="progress-line"></div>
         </div>
 
-        <div class="progress-lines" id="work-line">
-          <p>work</p>
+        <div class="progress-lines" id="assets-line">
+          <p>stream assets</p>
           <div class="progress-line"></div>
         </div>
 
-        <div class="progress-lines" id="about-line">
-          <p>about</p>
+        <div class="progress-lines" id="illustration-line">
+          <p>illustrations</p>
           <div class="progress-line"></div>
         </div>
       </nav>
@@ -67,95 +111,98 @@
 
 
     <main>
-      <div class="section" id="home">
-        <p id="intro"></p>
-      </div>
-
-      <div class="section" id="work">
-        <div id="work-divider" class="divider"></div>
-
-        <div class="art-menu">
-          <a id="menu-illustration" class="active">illustration</a>
-          <span class="separator"></span>
-          <a id="menu-design">design</a>
-        </div>
-
-        <div id="illustration-artwork" class="artwork active">
-          <div class="column-left">
-            <div class="column-big">
-              <img class="image-preview" src="img/illustration/lifedobelikethatsometimes.png" alt="strix shinji">
-              <img class="image-preview" src="img/illustration/mizuki.png" alt="mizuki fanart">
-              <img class="image-preview" src="img/illustration/szprotkum.png" alt="szprotka commission">
-            </div>
-            <div class="column-small">
-              <img class="image-preview" src="img/illustration/love.png" alt="celestine">
-              <img class="image-preview" src="img/illustration/Illustration4.png" alt="iris">
-              <img class="image-preview" src="img/illustration/starfell waltz.png" alt="starfell waltz">
-              <img class="image-preview" src="img/illustration/sketchbook2522.png" alt="celestine">
-            </div>
-          </div>
-          <div class="column-right">
-            <img class="image-preview" src="img/illustration/lilian.png" alt="lilian">
-            <img class="image-preview" src="img/illustration/defect.png" alt="salvia">
-            <img class="image-preview" src="img/illustration/rikku.png" alt="rikku fanart">
-          </div>
-        </div>
+      <div class="section" id="intro">
+        <div class="divider"><p></p></div>
         
-        <div id="design-artwork" class="artwork">
-          <div class="column-center">
-            <img class="image-preview" src="img/design/strixamiumschedule 2.0 demo.png" alt="strix schedule">
-            <img class="image-preview" src="img/design/chatting.png" alt="strix chatting">
-            <img class="image-preview" src="img/design/starting_soon.png" alt="strix starting soon">
-            <img class="image-preview" src="img/design/chat-widget.png" alt="strix chat widget design">
-            <img class="image-preview" src="img/design/kix-chat-widget.png" alt="kitsunekichiku chat widget design">
-          </div>
+        <div id="bio">
+          <p>Hello, my name is Sonnelia. I am trying to find a place for myself in this collapsing world.<br>My passions involve developing stream widgets, designing graphics and creating illustrations.<br>If you are interested in working with me please refer to the <a href="/commissions">commissions</a> page.</p>
+          <p>Scroll down to see my portfolio.</p>
+        </div>
+      </div>
+
+      <div class="section" id="assets">
+        <div class="divider"><p>stream assets</p></div>
+
+        <div class="artwork">
+          <div><img src="img/assets/kix-chat.png"><p>chat widget for <a href="https://kitsunekichiku.carrd.co/" target="_blank" rel="noreferrer">Kitsune Kichiku</a><br>design and code by Sonnelia</p></div>
+
+          <div><img src="img/assets/memoxx-chat.jpg"><p>P2U widget set - <a href="https://vgen.co/teacuppity/product/memo-xx-overlay-set-for-streamelements/d669b976-22c9-4ed7-879a-e6bdc720e2f8" target="_blank" rel="noreferrer">Memo xx</a><br>design by <a href="https://x.com/teacuppity" target="_blank" rel="noreferrer">Teacuppity</a>, code by Sonnelia</p></div>
+
+          <div><img src="img/assets/nightglow-widgets.jpg"><p>P2U widget set - <a href="https://vgen.co/teacuppity/product/-nightglow-donogoal-chat-widget-online-widget/fb72b4f6-76d2-495d-9e9f-643a88aa8b89" target="_blank" rel="noreferrer">Nightglow</a><br>design by <a href="https://x.com/teacuppity" target="_blank" rel="noreferrer">Teacuppity</a>, code by Sonnelia</p></div>
+          
+          <div><img src="img/assets/egistential-chat.png"><p>chat widget for <a href="https://linktr.ee/egistential" target="_blank" rel="noreferrer">Egistential</a><br>design by <a href="https://x.com/teacuppity" target="_blank" rel="noreferrer">Teacuppity</a>, code by Sonnelia</p></div>
+          
+          <div><img src="img/assets/ziyan-widgets.png"><p>chat and goal widgets for <a href="https://ziyan.wtf/" target="_blank" rel="noreferrer">Ziyan Su</a><br>design by <a href="https://x.com/teacuppity" target="_blank" rel="noreferrer">Teacuppity</a>, code by Sonnelia</p></div>
+
+          <div><img src="img/assets/luciela-subathon.jpg"><p>subathon widget for <a href="https://x.com/Luciela_DH" target="_blank" rel="noreferrer">Luciela</a><br>design by <a href="https://raizumi.com/" target="_blank" rel="noreferrer">Raizumi</a>, code by Sonnelia</p></div>
+          
+          <div><img src="img/assets/leo-chat.jpg"><p>chat widget for <a href="https://vsekaien.com/talent/leo-lione" target="_blank" rel="noreferrer">Leo Lione</a><br>design by <a href="https://raizumi.com/" target="_blank" rel="noreferrer">Raizumi</a>, code by Sonnelia</p></div>
+          
+          <div><img src="img/assets/taiga-chat.jpg"><p>chat widget for <a href="https://vsekaien.com/talent/taiga" target="_blank" rel="noreferrer">Taiga Torayami</a><br>design by <a href="https://raizumi.com/" target="_blank" rel="noreferrer">Raizumi</a>, code by Sonnelia</p></div>
+          
+          <div><img src="img/assets/yaiyahn-chat.jpg"><p>chat widget for <a href="https://x.com/Yaiyahn" target="_blank" rel="noreferrer">Yaiyahn</a><br>design by <a href="https://raizumi.com/" target="_blank" rel="noreferrer">Raizumi</a>, code by Sonnelia</p></div>
         </div>
 
       </div>
-      
-        <div class="section" id="about">
-          <div id="about-divider" class="divider"></div>
-          <img src="img/lomghair.png" alt="self">
-          <p class="bio">Hello, my name is Sonnelia. I am trying to find a place for myself in this collapsing world.</p>
 
-          <div class="links">
-            <a href="https://twitter.com/sonnelias" target="_blank" rel="noopener noreferrer">twitter</a>
-            <span class="separator"></span>
-            <a href="https://bsky.app/profile/sonnelia.bsky.social" target="_blank" rel="noopener noreferrer">bluesky</a>
-            <span class="separator"></span>
-            <a href="https://sonnelia.tumblr.com" target="_blank" rel="noopener noreferrer">tumblr</a>
-          </div>
+      <div class="section" id="illustration">
+        <div class="divider"><p>illustrations</p></div>
 
-          <div class="links">
-            <a href="https://artistree.io/sonnelia" target="_blank" rel="noopener noreferrer">artistree</a>
-            <span class="separator"></span>
-            <a class="mail">mail</a>
-          </div>
-
-          <p class="copyrights">© 2024 Sonnelia. All rights reserved.</p>
+        <div class="artwork">
+          <div><img src="img/illustration/eclipse.png"><p>Celestine - Eclipse</p></div>
+          <div><img src="img/illustration/illusion.jpg"><p>Salvia - Illusion</p></div>
+          <div><img src="img/illustration/seol.jpg"><p>fanart of <a href="https://x.com/teacuppity" target="_blank" rel="noreferrer">Teacuppity</a></p></div>
+          <div><img src="img/illustration/lilian-bouquet.png"><p>Lilian - Bouquet</p></div>
+          <div><img src="img/illustration/losing-everything.png"><p>Celestine - Losing everything</p></div>
+          <div><img src="img/illustration/lilian.png"><p>Lilian - Overcast</p></div>
+          <div><img src="img/illustration/kixhalloween.png"><p>fanart of <a href="https://kitsunekichiku.carrd.co/" target="_blank" rel="noreferrer">Kitsune Kichiku</a></p></div>
+          <div><img src="img/illustration/glorpiku.jpg"><p>fanart of Glorpiku<br>design by <a href="https://dyarikku.com/" target="_blank" rel="noreferrer">DyaRikku</a></p></div>
+          <div><img src="img/illustration/defect.png"><p>Salvia - Defect</p></div>
         </div>
+
+      </div>
 
     </main>
 
 
 
     <div class="image-viewer">
-
-      <div class="noise" id="noise-viewer"></div>
-
       <nav class="nav-viewer">
-        <div class="viewer-menu">
-          <svg><path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14ZM7 14C4.65279 14 2.75 12.0972 2.75 9.75C2.75 7.40279 4.65279 5.5 7 5.5C9.34721 5.5 11.25 7.40279 11.25 9.75C11.25 12.0972 9.34721 14 7 14Z"/></svg>
-          <a class="viewer-close">close</a>
-        </div>
-        <div class="viewer-navigation">
-          <a class="viewer-previous"><svg><path d="M7 0C3.134 0-0 3.134-0 7-0 10.866 3.134 14 7 14L7 0Z" stroke="none"/></svg></a>
-          <a class="viewer-next"><svg><path d="M7 14C10.866 14 14 10.866 14 7 14 3.134 10.866 0 7 0L7 14Z" stroke="none"/></svg></a>
-        </div>
+        <a id="previous">prev</a>
+        <span class="separator"></span>
+        <a id="next">next</a>
+        <span class="separator"></span>
+        <a id="close">close</a>
       </nav>
-      <img class="image-zoom">
-      <p class="caution">© Sonnelia. Repost or reproduction prohibited.</p>
+
+      <div class="image-zoom">
+        <img>
+        <p></p>
+      </div>
     </div>
+
+
+
+    <footer>
+      <div class="links">
+        <div>
+          <a href="https://twitter.com/sonnelias" target="_blank" rel="noreferrer">Twitter</a>
+          <a href="https://bsky.app/profile/sonnelia.bsky.social" target="_blank" rel="noreferrer">Bluesky</a>
+          <a href="https://sonnelia.tumblr.com" target="_blank" rel="noreferrer">Tumblr</a>
+        </div>
+        <span class="separator"></span>
+        <div>
+          <a href="https://artistree.io/sonnelia" target="_blank" rel="noreferrer">Artistree</a>
+          <a href="https://vgen.co/sonnelia" target="_blank" rel="noreferrer">VGen</a>
+          <a href="https://www.patreon.com/Sonnelia" target="_blank" rel="noreferrer">Patreon</a>
+        </div>
+      </div>
+
+      <div class="legal">
+        <img class="logo" src="/img/logo.png" alt="glitched moons logo">
+        <p>Glitched Moons © 2025 Sonnelia. All rights reserved. Contact: glitchedmoons@gmail.com.<br>Unauthorized copying and replication of the contents of this website is strictly prohibited.</p>
+      </div>
+    </footer>
     
     <script src="js/functions.js"></script>
   </body>

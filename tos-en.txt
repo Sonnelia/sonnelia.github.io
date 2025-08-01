@@ -1,71 +1,78 @@
-〈  I L L U S T R A T I O N  &  D E S I G N  〉
+⸬ intro
+
+∙ By commissioning, the client agrees to my terms of service. Please read carefully before ordering. Not agreeing to the terms stated below will lead to immediate order rejection.
+∙ Violating any of these terms results in project termination and possibly blacklisting the client.
+∙ Breaking any rule under the copyrights section will cause the client to owe me penalties and be stripped of all rights to use any of the commissioned products.
 
 
 
-〔 GENERAL RULES 〕
+⸬ contact
 
-› By commissioning, the client agrees to my terms of service. Please read carefully before ordering.
-› Listed prices are for personal or semi-commercial use. Commercial requests will cost more, depending on the scale of the project. Please include the purpose of the commission when ordering.
-› I reserve the right to decline any order without any explanation. I don't do gore, violence, offensive themes, explicit sexual content, fetishes.
-› Usage of my work for anything NFT or AI related is strictly prohibited.
-› Please remember to credit me properly while using my products.
-› Please include references when ordering. They don't have to be pretty, even ms paint mouse drawing or collage of images can be helpful.
-› Contact me to discuss orders outside of my price list (like drawn interiors, stream overlays, other visual design or frontend development).
+∙ Initial contact preferably via email (glitchedmoons@gmail.com), Artistree (artistree.io/sonnelia) or VGen (vgen.co/sonnelia). Otherwise requests might not be taken into consideration.
+∙ I reserve the right to decline any order without any explanation. I don't do gore, violence, offensive themes, explicit sexual content, fetishes.
+∙ When ordering along with basic description, the client must include the purpose of the commission, price limit if on a budget, a deadline if existing and a confidentiality request if needed.
+∙ In addition, when ordering, I require visual references from the client. It can be simple symbolic drawings and/or a collage of images. Additional fees will be charged if I have to collect them myself.
+∙ If the provided references include premade art/assets, the client must have permission or rights from the original creator to use them in a project.
 
 
-〔 ORDER PROCESS 〕
 
-₁ Contact via email or artistree with basic details.
-₂ Discussion of commission contents, estimated time and quote.
-₃ Invoice sent through email (due within 14 days).
-₄ Start of commission after payment.
-₅ Update and revision process.
-₆ Final files sent through email.
+⸬ communication
+
+∙ For the ease of communication, especially while working on bigger projects, I can offer messaging via my discord work server (not in private messages).
+∙ If the client stops responding for more than two weeks without prior notice, commission work will be put on hold. I may also terminate the project and offer a refund based on progress.
+∙ All personal information and logs of conversations related to the commission will be handled confidential by the artist and the same is expected from the client.
 
 
-〔 TERMS OF SERVICE 〕
 
-〈 intro 〉
-› Not agreeing to the terms stated below will lead to immediate order rejection.
-› Violating any of these terms results in project termination and possibly blacklisting the client.
-› Breaking any rule under the copyrights section will cause the client to owe me penalties and be stripped of all rights to use any of the commissioned products.
+⸬ payment
 
-〈 contact and communication 〉
-› Initial contact only via email (glitchedmoons@gmail.com) or artistree (artistree.io/sonnelia). Otherwise requests will not be taken into consideration.
-› For ease of communication, especially while working on bigger projects, I can offer messaging via my discord work server (not in private messages).
-› Along with basic description, I require visual references from the client. Additional fee will be charged for collecting them myself.
-› The client must have permission to use premade art/assets from the original creator, if they were provided to be used in the project.
-› If the client stops responding for more than two weeks without prior notice, I may terminate the project and offer a refund based on progress.
-› All personal information will be handled confidential by both the client and the artist.
+∙ I accept payment only via Artistree, VGen or Tipo. Artistree is preferable.
+∙ Upfront payments only, due within 14 calendar days after an invoice has been received. Otherwise, the commission will be canceled.
+∙ Additional fees are due in maximum 7 days after project completion. Otherwise the project will be considered canceled and the client will not receive any files.
 
-〈 payment 〉
-› I accept payment only via artistree or tipo.
-› Upfront payments only, due within 14 calendar days after an invoice has been received. Otherwise the commission will be canceled.
-› Additional fees are due in maximum 7 days after project completion. Otherwise the project will be considered canceled and the client will not receive any files.
 
-〈 cancellation and refund policy 〉
-› I reserve the right to cancel a commission at any time. After I cancel a commission after work has begun, the client receives a refund based on progress and can request to receive the product as is.
-› The client can cancel and request a full refund on an order only when I have not started the commission yet. The client cannot cancel the commission after work has begun.
-› In case of the client not wanting the product in the state of cancellation, I keep the rights to reuse the work.
 
-〈 updates and revisions 〉
-› The client will be able to regularly preview the state of the project and request necessary changes. Large or frequent revisions may require an additional fee.
-› Commissions with coding include half-year support for bug fixing and small tweaking updates.
-› All revisions, additions or upgrades to completed projects will be considered as a new project and will be priced accordingly.
+⸬ cancellation and refund policy
 
-〈 deadlines and delivery 〉
-› The commission of one product will take between 1 week to 2 months depending on complexity and my availability. I will inform the client if I require more time.
-› I will not work under pressure or a rushed deadline. When commissioning, the client agrees to my timings and cannot enforce differently.
-› Finished products will be sent via email as downloadable digital files.
+∙ I reserve the right to cancel a commission at any time. If I cancel a project after work has begun, the client receives a refund based on progress and can request to receive the product as is.
+∙ The client can cancel and request a full refund on an order only when I have not started the commission yet. The client cannot cancel the commission after work has begun.
+∙ I keep the rights to reuse or repurpose the product after cancellation, if the client does not want it.
 
-〈 copyright and usage 〉
-› I, the artist, retain full and exclusive rights to the commissioned work. The client may not claim my work as their own or use it for any purpose outside of originally declared use intentions.
-› I reserve the right to use the commissioned work in portfolio, social media and such to promote myself. The client can request timed confidentiality.
-› The client is obliged to credit me when using the commissioned product by linking to me accordingly.
-› The client is not allowed to alter the commissioned work in any way without my consent, please contact me to discuss it.
-› I do not allow my work to be used for training AI or selling NFTs, as well as to be repurposed, heavily referenced, traced and/or copied.
 
-〈 commercial license 〉
-› All commissions are presumed for personal usage unless stated otherwise by the client when ordering.
-› Stream assets and promotional graphics will be considered as semi-commercial, meaning that the client may profit off of it indirectly.
-› Commissioned work intended for digital or physical sales will be categorized under commercial and will be priced accordingly, depending on scale.
+
+⸬ updates and revisions
+
+∙ The client will be able to regularly preview the state of the project and request changes, if necessary. Large or frequent revisions may require an additional fee.
+∙ Commissions with coding include half-year support for bug fixing and small updates.
+∙ All revisions, additions or upgrades to completed projects will be considered as a new project and will be priced accordingly.
+
+
+
+⸬ deadlines and delivery
+
+∙ The commission of one product may take up to 2 months, depending on complexity and my availability. I will inform the client if I require more time.
+∙ I will not work under pressure or a rushed deadline. When commissioning, the client agrees to my working pace and cannot enforce differently.
+∙ Finished products will be sent via email as downloadable digital files.
+
+
+
+⸬ copyright and usage
+
+∙ I, the artist, retain full and exclusive rights to the commissioned work. The client may not claim my work as their own or use it for any purpose outside of originally declared use intentions.
+∙ Unless timed confidentiality has been requested by the client, I reserve the right to use the commissioned work in portfolio, social media and such to promote myself.
+∙ The client is obliged to credit me when using the commissioned product by including a link to either my website or one of my social media.
+∙ The client is not allowed to share works in progress without my consent or credit.
+∙ The client is not allowed to alter the commissioned work in any way without my consent, please contact me to discuss it.
+∙ I do not allow my work to be used for training AI or selling NFTs, as well as to be repurposed, heavily referenced, traced and/or copied.
+
+
+
+⸬ commercial license
+
+∙ Most custom commissions are presumed for personal usage unless stated otherwise by the client when ordering.
+∙ Stream assets and promotional graphics will be considered as semi-commercial, meaning that the client may profit off of it indirectly.
+∙ Commissioned work intended for digital or physical sales will be categorized under commercial and will be priced accordingly, depending on scale.
+
+
+
+Last updated: May 19, 2025.
