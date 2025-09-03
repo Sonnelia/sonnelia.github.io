@@ -226,8 +226,8 @@ let data = `⸬ intro
 ⸬ payment
 
 ∙ I accept payment only via Artistree, VGen or Tipo. Artistree is preferable.
-∙ Upfront payments only, due within 14 calendar days after an invoice has been received. Otherwise, the commission will be canceled.
-∙ Additional fees are due in maximum 7 days after project completion. Otherwise the project will be considered canceled and the client will not receive any files.
+∙ Upfront payments only unless agreed otherwise. Depending on the size of the commission, payment plans can be considered. 
+∙ All payments are due within 7 calendar days after an invoice has been received. Otherwise, the commission will be canceled and the client will not receive any files.
 
 
 
@@ -274,7 +274,7 @@ let data = `⸬ intro
 
 
 
-Last updated: May 19, 2025.`;
+Last updated: September 3, 2025.`;
 
 const generateTos = () => {
   let lines = data.split('\n').map(line => line.trim().replace(/\s+/g, ' '));
