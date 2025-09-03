@@ -27,8 +27,8 @@
 ⸬ płatność
 
 ∙ Akceptuję płatności tylko poprzez Artistree, VGen lub Tipo. Preferowaną metodą jest Artistee.
-∙ Wyłącznie płatności z góry, do zapłaty w ciągu 14 dni kalendarzowych od otrzymania faktury. W przeciwnym wypadku zlecenie zostanie anulowane.
-∙ Dodatkowe opłaty muszą być wykonane maksymalnie do 7 dni od zakończenia projektu. W przeciwnym razie projekt zostanie uznany za anulowany, a klient nie otrzyma żadnych plików.
+∙ Wyłącznie płatności z góry, chyba że uzgodnione zostało inaczej. Jest możliwość rozpatrzenia planów płatności w zależności od złożoności zlecenia.
+∙ Wszystkie płatności muszą być wykonane w ciągu 7 dni kalendarzowych od otrzymania faktury. W przeciwnym wypadku zlecenie zostanie anulowane, a klient nie otrzyma żadnych plików.
 
 
 
@@ -75,4 +75,4 @@
 
 
 
-Ostatnio zaktualizowane: 19 maja 2025.
+Ostatnio zaktualizowane: 3 września 2025.
