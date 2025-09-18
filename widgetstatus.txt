@@ -21,3 +21,4 @@ perindigo-popup=18/08/25
 ziyan-chat=27/07/25
 ziyan-goal=27/07/25
 lettuce-chat=03/09/25
+heralyse-megathon=17/09/25
