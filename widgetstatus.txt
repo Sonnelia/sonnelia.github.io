@@ -24,3 +24,4 @@ lettuce-chat=03/09/25
 heralyse-megathon=17/09/25
 niu-goal=05/10/25
 phoebe-goal=19/11/25
+forgotten-gacha=04/12/25
