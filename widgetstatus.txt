@@ -26,3 +26,4 @@ niu-goal=05/10/25
 phoebe-goal=19/11/25
 forgotten-gacha=04/12/25
 afennec-chat=12/12/25
+soyuubee-chat=23/12/25
