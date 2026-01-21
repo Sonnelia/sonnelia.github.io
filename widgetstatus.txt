@@ -27,3 +27,4 @@ phoebe-goal=19/11/25
 forgotten-gacha=04/12/25
 afennec-chat=12/12/25
 soyuubee-chat=30/12/25
+exhilus-chat=21/01/26
