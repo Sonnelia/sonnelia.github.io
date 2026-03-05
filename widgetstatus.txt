@@ -30,4 +30,4 @@ soyuubee-chat=30/12/25
 exhilus-chat=21/01/26
 suki-chat=28/01/26
 bambi-chat=18/02/26
-bambi-goal=27/02/26
+bambi-goal=05/03/26
