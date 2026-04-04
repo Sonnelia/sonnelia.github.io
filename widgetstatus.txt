@@ -31,5 +31,5 @@ exhilus-chat=21/01/26
 suki-chat=28/01/26
 bambi-chat=18/02/26
 bambi-goal=21/03/26
-sayu-gba=20/03/26
+sayu-gba=04/04/26
 mannai-chat=02/04/26
