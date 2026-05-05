@@ -33,3 +33,6 @@ bambi-chat=18/02/26
 bambi-goal=21/03/26
 sayu-gba=04/04/26
 mannai-chat=02/04/26
+avalon-chat=03/05/26
+avalon-goal=03/05/26
+avalon-alert=03/05/26
