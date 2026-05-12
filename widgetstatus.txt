@@ -36,3 +36,5 @@ mannai-chat=02/04/26
 avalon-chat=03/05/26
 avalon-goal=03/05/26
 avalon-alert=03/05/26
+kyrio-chat=12/05/26
+kyrio-goal=12/05/26
