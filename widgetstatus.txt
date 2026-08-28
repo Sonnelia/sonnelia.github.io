@@ -39,3 +39,4 @@ avalon-alert=03/05/26
 kyrio-chat=12/05/26
 kyrio-goal=15/05/26
 morifae-goal=22/08/26
+saqusya-chat=28/08/26
